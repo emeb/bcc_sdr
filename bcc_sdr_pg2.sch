@@ -2662,7 +2662,7 @@ pintype=pas
 ]
 {
 T 15600 9300 5 10 1 1 0 0 1
-device=MAR-8A+
+device=ERA-3SM+
 T 15650 9575 5 10 1 1 0 0 1
 refdes=U204
 T 14795 9395 5 10 0 1 0 0 1
