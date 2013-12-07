@@ -2811,6 +2811,8 @@ T 6000 5300 5 10 0 0 90 0 1
 symversion=0.1
 T 6500 5400 5 10 1 1 180 0 1
 value=1uf
+T 6900 5100 5 10 0 0 0 0 1
+footprint=my_0805
 }
 C 10700 16200 1 0 0 EMBEDDEDgeneric-power.sym
 [
@@ -2934,8 +2936,10 @@ T 13100 15700 5 10 1 1 180 0 1
 refdes=C202
 T 13100 15500 5 10 1 1 180 0 1
 value=1uf
-T 13500 15200 5 10 0 0 0 0 1
-footprint=my_0603
+T 13500 15200 5 10 0 2 0 0 1
+footprint=my_0805
+T 13500 15200 5 10 0 1 0 0 1
+footprint=my_0805
 }
 C 12300 14900 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -3583,6 +3587,8 @@ T 17000 11900 5 10 0 0 90 0 1
 symversion=0.1
 T 17500 12100 5 10 1 1 180 0 1
 value=10uf
+T 17900 11700 5 10 0 0 0 0 1
+footprint=my_0805
 }
 C 18900 11700 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -3793,6 +3799,8 @@ T 17600 6700 5 10 1 1 180 0 1
 refdes=C212
 T 17600 6500 5 10 1 1 180 0 1
 value=10uf
+T 18000 6100 5 10 0 0 0 0 1
+footprint=my_0805
 }
 C 19000 6100 1 90 0 EMBEDDEDcapacitor-1.sym
 [
