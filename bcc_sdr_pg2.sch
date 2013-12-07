@@ -970,7 +970,7 @@ refdes=U202
 T 10295 14900 5 10 1 1 0 0 1
 device=LT5560f
 T 9195 13300 5 10 0 1 0 0 1
-footprint=SOT26
+footprint=DFN8
 }
 C 20100 10700 1 0 1 EMBEDDEDio-1.sym
 [
@@ -1676,7 +1676,7 @@ refdes=U201
 T 4305 15200 5 10 1 1 0 6 1
 device=PE4283
 T 5305 14200 5 10 0 1 0 6 1
-footprint=SOT26
+footprint=SOT363
 }
 C 10200 3200 1 0 1 EMBEDDEDLT5560f.sym
 [
@@ -1793,7 +1793,7 @@ refdes=U207
 T 9105 4500 5 10 1 1 0 6 1
 device=LT5560f
 T 10205 2900 5 10 0 1 0 6 1
-footprint=SOT26
+footprint=DFN8
 }
 C 13000 4000 1 0 0 EMBEDDEDpe4283.sym
 [
@@ -1877,7 +1877,7 @@ refdes=U208
 T 13995 4700 5 10 1 1 0 0 1
 device=PE4283
 T 12995 3700 5 10 0 1 0 0 1
-footprint=SOT26
+footprint=SOT363
 }
 C 5100 3800 1 0 1 EMBEDDEDpe4283.sym
 [
@@ -1961,7 +1961,7 @@ refdes=U206
 T 4105 4500 5 10 1 1 0 6 1
 device=PE4283
 T 5105 3500 5 10 0 1 0 6 1
-footprint=SOT26
+footprint=SOT363
 }
 C 13600 14200 1 0 0 EMBEDDEDpe4283.sym
 [
@@ -2045,7 +2045,7 @@ refdes=U203
 T 14595 14900 5 10 1 1 0 0 1
 device=PE4283
 T 13595 13900 5 10 0 1 0 0 1
-footprint=SOT26
+footprint=SOT363
 }
 C 5400 2800 1 0 0 EMBEDDEDgnd-1.sym
 [
