@@ -1,4 +1,4 @@
-v 20111231 2
+v 20110115 2
 C 1000 1000 0 0 0 EMBEDDEDtitle-bordered-C.sym
 [
 B 1000 1000 22000 17000 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
@@ -938,7 +938,7 @@ device=HEADER46
 T 4200 16900 5 10 1 1 180 6 1
 refdes=J101
 T 3600 12700 5 10 0 0 0 0 1
-footprint=hirose_fx2_40
+footprint=hirose_fx2_40_h
 }
 C 7900 9300 1 0 0 EMBEDDEDad9865.sym
 [
@@ -4008,7 +4008,7 @@ device=74HCT04
 T 19900 6500 5 10 1 1 0 0 1
 refdes=U105
 T 20200 9200 5 10 0 0 0 0 1
-footprint=DIP14
+footprint=SO14
 T 19600 5700 5 10 0 0 0 0 1
 slot=6
 }
@@ -4377,7 +4377,7 @@ refdes=U105
 T 20200 4700 5 10 0 0 0 0 1
 device=74HCT04
 T 20200 7300 5 10 0 0 0 0 1
-footprint=DIP14
+footprint=SO14
 T 19600 3800 5 10 0 0 0 0 1
 slot=5
 }
@@ -4525,7 +4525,7 @@ refdes=U105
 T 20200 3600 5 10 0 0 0 0 1
 device=74HCT04
 T 20200 6200 5 10 0 0 0 0 1
-footprint=DIP14
+footprint=SO14
 T 19600 2700 5 10 0 0 0 0 1
 slot=4
 }
@@ -4821,7 +4821,7 @@ device=74HCT04
 T 18600 6500 5 10 1 1 0 0 1
 refdes=U105
 T 18900 9200 5 10 0 0 0 0 1
-footprint=DIP14
+footprint=SO14
 }
 N 19400 6200 19600 6200 4
 C 18300 3800 1 0 0 EMBEDDED7404-1.sym
@@ -4896,7 +4896,7 @@ refdes=U105
 T 18900 4700 5 10 0 0 0 0 1
 device=74HCT04
 T 18900 7300 5 10 0 0 0 0 1
-footprint=DIP14
+footprint=SO14
 T 18300 3800 5 10 0 0 0 0 1
 slot=2
 }
@@ -4973,7 +4973,7 @@ refdes=U105
 T 18900 3600 5 10 0 0 0 0 1
 device=74HCT04
 T 18900 6200 5 10 0 0 0 0 1
-footprint=DIP14
+footprint=SO14
 T 18300 2700 5 10 0 0 0 0 1
 slot=3
 }

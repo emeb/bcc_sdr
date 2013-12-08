@@ -1,4 +1,4 @@
-v 20111231 2
+v 20110115 2
 C 1000 1000 0 0 0 EMBEDDEDtitle-bordered-C.sym
 [
 T 22000 17900 15 8 1 0 0 4 1
@@ -521,7 +521,7 @@ refdes=U?
 T 7795 13895 5 10 1 1 0 0 1
 device=ADF4351
 T 8395 14095 5 10 0 1 0 0 1
-footprint=LQFP48_12
+footprint=LFCSP_VQ32
 T 8095 14195 5 10 1 1 0 0 1
 refdes=U301
 }
@@ -2016,7 +2016,7 @@ refdes=U?
 ]
 {
 T 8395 6095 5 10 0 1 0 0 1
-footprint=LQFP48_12
+footprint=LFCSP_VQ32
 T 7795 5895 5 10 1 1 0 0 1
 device=ADF4351
 T 8095 6195 5 10 1 1 0 0 1
@@ -2830,7 +2830,7 @@ refdes=TP301
 T 10800 16700 5 10 0 0 270 0 1
 device=TESTPOINT
 T 10600 16700 5 10 0 0 270 0 1
-footprint=none
+footprint=TP
 }
 C 9900 9100 1 270 0 EMBEDDEDtestpt-1.sym
 [
@@ -2860,11 +2860,11 @@ numslots=0
 ]
 {
 T 10400 9000 5 10 1 1 0 0 1
-refdes=TP301
+refdes=TP302
 T 10800 8700 5 10 0 0 270 0 1
 device=TESTPOINT
 T 10600 8700 5 10 0 0 270 0 1
-footprint=none
+footprint=TP
 }
 T 10500 16800 9 10 1 0 0 0 1
 PLL_MUX0
@@ -3296,6 +3296,8 @@ T 16900 4000 5 10 0 0 90 0 1
 device=HEADER46
 T 18700 7400 5 10 1 1 180 0 1
 refdes=JP301
+T 19600 6400 5 10 0 0 0 0 1
+footprint=JUMPER3
 }
 N 19600 9900 18100 9900 4
 {
