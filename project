@@ -1,4 +1,4 @@
-schematics		bcc_sdr_pg1.sch bcc_sdr_pg2.sch
+schematics		bcc_sdr_pg1.sch bcc_sdr_pg2.sch bcc_sdr_pg3.sch
 output-name		bcc_sdr
 elements-dir	../pcb-elements/
 skip-m4

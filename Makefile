@@ -21,6 +21,7 @@ bom:
 sch_pdf:
 	$(GSCH) -p -o $(DESIGN)_pg1.ps -s print.scm $(DESIGN)_pg1.sch
 	$(GSCH) -p -o $(DESIGN)_pg2.ps -s print.scm $(DESIGN)_pg2.sch
+	$(GSCH) -p -o $(DESIGN)_pg3.ps -s print.scm $(DESIGN)_pg3.sch
 	cat $(DESIGN)_pg?.ps > $(DESIGN)_schematic.ps
 	$(PDF) $(DESIGN)_schematic.ps
 	rm -f *.ps
