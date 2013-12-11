@@ -5,8 +5,8 @@ FileVersion[20070407]
 
 PCB["BeagleBone FPGA" 640000 415000]
 
-Grid[500.0 0 0 1]
-Cursor[101000 0 0.000000]
+Grid[500.0 0 0 0]
+Cursor[220500 217000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -1799,7 +1799,7 @@ Element["" "my_0603" "L207" "unknown" 470958 398215 8989 -3440 0 100 ""]
 
 	)
 
-Element["" "my_0603" "R211" "18.2_1%" 495980 398215 8989 -3440 0 100 ""]
+Element["" "my_0603" "R211" "16.5_1%" 495980 398215 8989 -3440 0 100 ""]
 (
 	Pad[3149 0 3543 0 3937 2000 4400 "input" "1" "square,edge2"]
 	Pad[-3543 0 -3149 0 3937 2000 4400 "input" "2" "square"]
@@ -1810,7 +1810,7 @@ Element["" "my_0603" "R211" "18.2_1%" 495980 398215 8989 -3440 0 100 ""]
 
 	)
 
-Element["" "my_0603" "R210" "34.8_1%" 521002 398215 8989 -3440 0 100 ""]
+Element["" "my_0603" "R210" "66.5_1%" 521002 398215 8989 -3440 0 100 ""]
 (
 	Pad[3149 0 3543 0 3937 2000 4400 "input" "1" "square,edge2"]
 	Pad[-3543 0 -3149 0 3937 2000 4400 "input" "2" "square"]
@@ -1821,7 +1821,7 @@ Element["" "my_0603" "R210" "34.8_1%" 521002 398215 8989 -3440 0 100 ""]
 
 	)
 
-Element["" "my_0603" "R212" "34.8_1%" 546024 398215 8989 -3440 0 100 ""]
+Element["" "my_0603" "R212" "66.5_1%" 546024 398215 8989 -3440 0 100 ""]
 (
 	Pad[3149 0 3543 0 3937 2000 4400 "input" "1" "square,edge2"]
 	Pad[-3543 0 -3149 0 3937 2000 4400 "input" "2" "square"]
@@ -2477,20 +2477,6 @@ Element["" "my_0603" "C224" "0.01uf" 444794 57215 8989 -3440 0 100 ""]
 
 	)
 
-Element["" "JUMPER3" "JP301" "unknown" 513256 45401 11000 -5000 3 100 ""]
-(
-	Pin[0 0 6000 3000 6600 3800 "1" "1" "square"]
-	Pin[0 10000 6000 3000 6600 3800 "2" "2" ""]
-	Pin[0 20000 6000 3000 6600 3800 "3" "3" ""]
-	ElementLine [-5000 -5000 -5000 25000 1000]
-	ElementLine [-5000 25000 5000 25000 1000]
-	ElementLine [5000 25000 5000 -5000 1000]
-	ElementLine [5000 -5000 -5000 -5000 1000]
-	ElementLine [-5000 5000 5000 5000 1000]
-	ElementLine [5000 5000 5000 -5000 1000]
-
-	)
-
 Element["" "SMA_ENDLAUNCH" "J202" "unknown" 11018 167875 -5000 -23500 1 100 ""]
 (
 	Pad[-5500 0 5500 0 9000 2000 11000 "" "1" "square"]
@@ -2498,6 +2484,22 @@ Element["" "SMA_ENDLAUNCH" "J202" "unknown" 11018 167875 -5000 -23500 1 100 ""]
 	Pad[-5250 17000 5250 17000 9500 2000 11500 "" "2" "onsolder,square"]
 	Pad[-5250 -17000 5250 -17000 9500 2000 11500 "" "2" "square"]
 	Pad[-5250 -17000 5250 -17000 9500 2000 11500 "" "2" "onsolder,square"]
+
+	)
+
+Element["" "SOLDER_JUMPER_50OHM_3" "JP301" "unknown" 289000 278000 26000 0 3 100 ""]
+(
+	Pad[-1700 0 -1700 0 1200 3000 1800 "" "1" "square"]
+	Pad[0 0 0 0 1200 3000 1800 "" "2" "square"]
+	Pad[1700 0 1700 0 1200 3000 1800 "" "3" "square,edge2"]
+
+	)
+
+Element["" "SOLDER_JUMPER_50OHM_3" "JP201" "unknown" 287000 295500 26000 0 3 100 ""]
+(
+	Pad[-1700 0 -1700 0 1200 3000 1800 "" "1" "square"]
+	Pad[0 0 0 0 1200 3000 1800 "" "2" "square"]
+	Pad[1700 0 1700 0 1200 3000 1800 "" "3" "square,edge2"]
 
 	)
 Layer(1 "component")
@@ -3076,14 +3078,14 @@ NetList()
 	)
 	Net("unnamed_net12" "(unknown)")
 	(
-		Connect("C217-1")
-		Connect("U209-5")
-	)
-	Net("unnamed_net13" "(unknown)")
-	(
 		Connect("C217-2")
 		Connect("L206-1")
 		Connect("U210-3")
+	)
+	Net("unnamed_net13" "(unknown)")
+	(
+		Connect("C217-1")
+		Connect("U209-5")
 	)
 	Net("unnamed_net14" "(unknown)")
 	(
@@ -3092,39 +3094,38 @@ NetList()
 	)
 	Net("unnamed_net15" "(unknown)")
 	(
-		Connect("C221-2")
 		Connect("J202-1")
-		Connect("U206-3")
+		Connect("JP201-3")
 	)
 	Net("unnamed_net16" "(unknown)")
-	(
-		Connect("C213-2")
-		Connect("U206-1")
-	)
-	Net("unnamed_net17" "(unknown)")
 	(
 		Connect("C214-1")
 		Connect("U206-5")
 	)
+	Net("unnamed_net17" "(unknown)")
+	(
+		Connect("JP201-1")
+		Connect("U206-3")
+	)
 	Net("unnamed_net18" "(unknown)")
 	(
-		Connect("R203-2")
-		Connect("U201-5")
+		Connect("C213-2")
+		Connect("U206-1")
 	)
 	Net("unnamed_net19" "(unknown)")
-	(
-		Connect("U201-3")
-		Connect("U202-2")
-	)
-	Net("unnamed_net20" "(unknown)")
 	(
 		Connect("U201-1")
 		Connect("U204-1")
 	)
+	Net("unnamed_net20" "(unknown)")
+	(
+		Connect("U201-3")
+		Connect("U202-2")
+	)
 	Net("unnamed_net21" "(unknown)")
 	(
-		Connect("U207-3")
-		Connect("U209-3")
+		Connect("R203-2")
+		Connect("U201-5")
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
@@ -3133,13 +3134,13 @@ NetList()
 	)
 	Net("unnamed_net23" "(unknown)")
 	(
-		Connect("C215-1")
-		Connect("U207-1")
+		Connect("U207-3")
+		Connect("U209-3")
 	)
 	Net("unnamed_net24" "(unknown)")
 	(
-		Connect("C209-1")
-		Connect("U204-5")
+		Connect("C215-1")
+		Connect("U207-1")
 	)
 	Net("unnamed_net25" "(unknown)")
 	(
@@ -3148,10 +3149,20 @@ NetList()
 	)
 	Net("unnamed_net26" "(unknown)")
 	(
+		Connect("C209-1")
+		Connect("U204-5")
+	)
+	Net("unnamed_net27" "(unknown)")
+	(
+		Connect("C221-2")
+		Connect("JP201-2")
+	)
+	Net("unnamed_net28" "(unknown)")
+	(
 		Connect("C221-1")
 		Connect("U210-1")
 	)
-	Net("unnamed_net27" "(unknown)")
+	Net("unnamed_net29" "(unknown)")
 	(
 		Connect("C210-2")
 		Connect("C211-2")
@@ -3159,18 +3170,18 @@ NetList()
 		Connect("L205-2")
 		Connect("R208-1")
 	)
-	Net("unnamed_net28" "(unknown)")
+	Net("unnamed_net30" "(unknown)")
 	(
 		Connect("C213-1")
 		Connect("L205-1")
 		Connect("U205-3")
 	)
-	Net("unnamed_net29" "(unknown)")
+	Net("unnamed_net31" "(unknown)")
 	(
 		Connect("C209-2")
 		Connect("U205-1")
 	)
-	Net("unnamed_net30" "(unknown)")
+	Net("unnamed_net32" "(unknown)")
 	(
 		Connect("C218-2")
 		Connect("C219-2")
@@ -3178,12 +3189,12 @@ NetList()
 		Connect("L206-2")
 		Connect("R209-1")
 	)
-	Net("unnamed_net31" "(unknown)")
+	Net("unnamed_net33" "(unknown)")
 	(
 		Connect("R206-2")
 		Connect("U202-3")
 	)
-	Net("unnamed_net32" "(unknown)")
+	Net("unnamed_net34" "(unknown)")
 	(
 		Connect("C202-2")
 		Connect("C203-2")
@@ -3191,85 +3202,79 @@ NetList()
 		Connect("L201-2")
 		Connect("R207-1")
 	)
-	Net("unnamed_net33" "(unknown)")
-	(
-		Connect("C205-1")
-		Connect("L201-1")
-		Connect("U203-3")
-	)
-	Net("unnamed_net34" "(unknown)")
+	Net("unnamed_net35" "(unknown)")
 	(
 		Connect("C205-2")
 		Connect("C206-1")
 		Connect("L202-2")
 	)
-	Net("unnamed_net35" "(unknown)")
-	(
-		Connect("C201-1")
-		Connect("R204-1")
-	)
 	Net("unnamed_net36" "(unknown)")
+	(
+		Connect("C205-1")
+		Connect("L201-1")
+		Connect("U203-3")
+	)
+	Net("unnamed_net37" "(unknown)")
 	(
 		Connect("C201-2")
 		Connect("U203-1")
 	)
-	Net("unnamed_net37" "(unknown)")
+	Net("unnamed_net38" "(unknown)")
+	(
+		Connect("C201-1")
+		Connect("R204-1")
+	)
+	Net("unnamed_net39" "(unknown)")
 	(
 		Connect("R204-2")
 		Connect("R205-2")
 		Connect("R206-1")
 	)
-	Net("unnamed_net38" "(unknown)")
+	Net("unnamed_net40" "(unknown)")
 	(
 		Connect("C206-2")
 		Connect("C207-1")
 		Connect("L203-2")
 	)
-	Net("unnamed_net39" "(unknown)")
+	Net("unnamed_net41" "(unknown)")
 	(
 		Connect("C207-2")
 		Connect("C208-1")
 		Connect("L204-2")
 	)
-	Net("unnamed_net40" "(unknown)")
-	(
-		Connect("C216-1")
-		Connect("U208-3")
-	)
-	Net("unnamed_net41" "(unknown)")
+	Net("unnamed_net42" "(unknown)")
 	(
 		Connect("R210-2")
 		Connect("U208-2")
 	)
-	Net("unnamed_net42" "(unknown)")
-	(
-		Connect("C223-2")
-		Connect("R212-1")
-	)
 	Net("unnamed_net43" "(unknown)")
+	(
+		Connect("C216-1")
+		Connect("U208-3")
+	)
+	Net("unnamed_net44" "(unknown)")
 	(
 		Connect("R210-1")
 		Connect("R211-2")
 		Connect("R212-2")
 	)
-	Net("unnamed_net44" "(unknown)")
+	Net("unnamed_net45" "(unknown)")
 	(
 		Connect("C215-2")
+		Connect("C223-1")
+		Connect("C223-2")
 		Connect("L207-1")
+		Connect("R212-1")
+		Connect("U211-1")
 		Connect("U211-3")
 	)
-	Net("unnamed_net45" "(unknown)")
+	Net("unnamed_net46" "(unknown)")
 	(
 		Connect("C224-2")
 		Connect("C225-2")
 		Connect("C226-2")
 		Connect("L207-2")
 		Connect("R213-1")
-	)
-	Net("unnamed_net46" "(unknown)")
-	(
-		Connect("C223-1")
-		Connect("U211-1")
 	)
 	Net("unnamed_net47" "(unknown)")
 	(
