@@ -822,7 +822,7 @@ refdes=R301
 T 13200 14500 5 10 1 1 0 0 1
 value=4.7k
 T 12700 14300 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 10400 14400 12700 14400 4
 C 12700 16800 1 0 0 EMBEDDEDcapacitor-1.sym
@@ -874,7 +874,7 @@ symversion=0.1
 T 13100 17200 5 10 1 1 0 0 1
 value=10pf
 T 12700 16800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 12700 16200 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -925,7 +925,7 @@ symversion=0.1
 T 13100 16600 5 10 1 1 0 0 1
 value=0.1uf
 T 12700 16200 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 12700 15400 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -976,7 +976,7 @@ refdes=C303
 T 13100 15800 5 10 1 1 0 0 1
 value=10pf
 T 12700 15400 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 12700 14800 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -1027,7 +1027,7 @@ refdes=C304
 T 13100 15200 5 10 1 1 0 0 1
 value=0.1uf
 T 12700 14800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 10400 14800 12300 14800 4
 N 12300 14800 12300 17000 4
@@ -1088,7 +1088,7 @@ refdes=C305
 T 13100 13700 5 10 1 1 0 0 1
 value=10pf
 T 12700 13300 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 12700 12700 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -1139,7 +1139,7 @@ refdes=C306
 T 13100 13100 5 10 1 1 0 0 1
 value=0.1uf
 T 12700 12700 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 12500 13500 12700 13500 4
 N 12700 12900 12500 12900 4
@@ -1245,7 +1245,7 @@ refdes=R302
 T 13600 12000 5 10 1 1 0 0 1
 value=680
 T 13100 11800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 10400 14000 14300 14000 4
 N 14300 14000 14300 11900 4
@@ -1299,7 +1299,7 @@ refdes=C309
 T 15100 11400 5 10 1 1 180 0 1
 value=1200pf
 T 14500 11000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 11900 11000 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -1350,7 +1350,7 @@ refdes=C307
 T 12500 11400 5 10 1 1 180 0 1
 value=2700pf
 T 11900 11000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 13000 11000 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -1401,7 +1401,7 @@ refdes=C308
 T 13500 11400 5 10 1 1 180 0 1
 value=39nf
 T 13000 11000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 11400 11200 11400 11900 4
 N 11400 11900 13100 11900 4
@@ -1536,7 +1536,7 @@ device=RESISTOR
 T 13100 10700 5 10 0 0 270 0 1
 device=RESISTOR
 T 12700 11000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 13000 10600 5 10 1 1 0 0 1
 refdes=R303
 T 13000 10400 5 10 1 1 0 0 1
@@ -2104,7 +2104,7 @@ device=RESISTOR
 T 13000 6700 5 10 0 0 0 0 1
 device=RESISTOR
 T 12700 6300 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12700 6500 5 10 1 1 0 0 1
 refdes=R308
 T 13200 6500 5 10 1 1 0 0 1
@@ -2156,7 +2156,7 @@ device=CAPACITOR
 T 12900 9700 5 10 0 0 0 0 1
 symversion=0.1
 T 12700 8800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12600 9200 5 10 1 1 0 0 1
 refdes=C310
 T 13100 9200 5 10 1 1 0 0 1
@@ -2207,7 +2207,7 @@ device=CAPACITOR
 T 12900 9100 5 10 0 0 0 0 1
 symversion=0.1
 T 12700 8200 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12600 8600 5 10 1 1 0 0 1
 refdes=C311
 T 13100 8600 5 10 1 1 0 0 1
@@ -2258,7 +2258,7 @@ device=CAPACITOR
 T 12900 8300 5 10 0 0 0 0 1
 symversion=0.1
 T 12700 7400 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12600 7800 5 10 1 1 0 0 1
 refdes=C312
 T 13100 7800 5 10 1 1 0 0 1
@@ -2309,7 +2309,7 @@ device=CAPACITOR
 T 12900 7700 5 10 0 0 0 0 1
 symversion=0.1
 T 12700 6800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12600 7200 5 10 1 1 0 0 1
 refdes=C313
 T 13100 7200 5 10 1 1 0 0 1
@@ -2370,7 +2370,7 @@ device=CAPACITOR
 T 12900 6200 5 10 0 0 0 0 1
 symversion=0.1
 T 12700 5300 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12600 5700 5 10 1 1 0 0 1
 refdes=C314
 T 13100 5700 5 10 1 1 0 0 1
@@ -2421,7 +2421,7 @@ device=CAPACITOR
 T 12900 5600 5 10 0 0 0 0 1
 symversion=0.1
 T 12700 4700 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12600 5100 5 10 1 1 0 0 1
 refdes=C315
 T 13100 5100 5 10 1 1 0 0 1
@@ -2527,7 +2527,7 @@ device=RESISTOR
 T 13400 4200 5 10 0 0 0 0 1
 device=RESISTOR
 T 13100 3800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 13100 4000 5 10 1 1 0 0 1
 refdes=R309
 T 13600 4000 5 10 1 1 0 0 1
@@ -2581,7 +2581,7 @@ device=CAPACITOR
 T 13600 3200 5 10 0 0 90 0 1
 symversion=0.1
 T 14500 3000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 15000 3600 5 10 1 1 180 0 1
 refdes=C318
 T 15100 3400 5 10 1 1 180 0 1
@@ -2632,7 +2632,7 @@ device=CAPACITOR
 T 11000 3200 5 10 0 0 90 0 1
 symversion=0.1
 T 11900 3000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12400 3600 5 10 1 1 180 0 1
 refdes=C316
 T 12500 3400 5 10 1 1 180 0 1
@@ -2683,7 +2683,7 @@ device=CAPACITOR
 T 12100 3200 5 10 0 0 90 0 1
 symversion=0.1
 T 13000 3000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 13500 3600 5 10 1 1 180 0 1
 refdes=C317
 T 13500 3400 5 10 1 1 180 0 1
@@ -2754,7 +2754,7 @@ device=RESISTOR
 T 13100 2700 5 10 0 0 270 0 1
 device=RESISTOR
 T 12700 3000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 13000 2600 5 10 1 1 0 0 1
 refdes=R310
 T 13000 2400 5 10 1 1 0 0 1
@@ -2924,7 +2924,7 @@ device=RESISTOR
 T 8500 2700 5 10 0 0 270 0 1
 device=RESISTOR
 T 8100 3000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 7600 2600 5 10 1 1 0 0 1
 refdes=R311
 T 7600 2400 5 10 1 1 0 0 1
@@ -2974,7 +2974,7 @@ device=RESISTOR
 T 9300 2700 5 10 0 0 270 0 1
 device=RESISTOR
 T 8900 3000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 8400 2600 5 10 1 1 0 0 1
 refdes=R312
 T 8400 2400 5 10 1 1 0 0 1
@@ -3027,7 +3027,7 @@ device=RESISTOR
 T 8500 10500 5 10 0 0 270 0 1
 device=RESISTOR
 T 8100 10800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 7600 10400 5 10 1 1 0 0 1
 refdes=R304
 T 7600 10200 5 10 1 1 0 0 1
@@ -3077,7 +3077,7 @@ device=RESISTOR
 T 9300 10500 5 10 0 0 270 0 1
 device=RESISTOR
 T 8900 10800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 8400 10400 5 10 1 1 0 0 1
 refdes=R305
 T 8400 10200 5 10 1 1 0 0 1
@@ -3129,7 +3129,7 @@ device=RESISTOR
 T 10200 10500 5 10 0 0 270 0 1
 device=RESISTOR
 T 9800 10800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 9300 10400 5 10 1 1 0 0 1
 refdes=R306
 T 9300 10200 5 10 1 1 0 0 1
@@ -3179,7 +3179,7 @@ device=RESISTOR
 T 11000 10500 5 10 0 0 270 0 1
 device=RESISTOR
 T 10600 10800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 10100 10400 5 10 1 1 0 0 1
 refdes=R307
 T 10100 10200 5 10 1 1 0 0 1

@@ -1,4 +1,4 @@
-v 20110115 2
+v 20111231 2
 C 1000 1000 0 0 0 EMBEDDEDtitle-bordered-C.sym
 [
 B 1000 1000 22000 17000 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
@@ -2202,29 +2202,6 @@ refdes=C103
 T 4400 1900 5 10 1 1 0 0 1
 value=10uF 10V
 }
-C 5100 3200 1 0 0 EMBEDDEDgeneric-power.sym
-[
-T 5300 3450 8 10 0 1 0 3 1
-net=Vcc:1
-L 5150 3400 5450 3400 3 0 0 0 -1 -1
-P 5300 3200 5300 3400 1 0 0
-{
-T 5350 3250 5 6 0 1 0 0 1
-pinnumber=1
-T 5350 3250 5 6 0 0 0 0 1
-pinseq=1
-T 5350 3250 5 6 0 1 0 0 1
-pinlabel=1
-T 5350 3250 5 6 0 1 0 0 1
-pintype=pwr
-}
-]
-{
-T 5300 3450 5 10 0 1 0 3 1
-net=AVDD:1
-T 5100 3400 5 10 1 1 0 0 1
-value=AVDD
-}
 N 5300 1700 5300 1600 4
 C 4500 1300 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -2341,7 +2318,7 @@ device=CAPACITOR
 T 11200 16200 5 10 0 0 90 0 1
 symversion=0.1
 T 12100 16000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 11600 16700 5 10 1 1 180 0 1
 refdes=C109
 T 11300 16300 5 10 1 1 0 0 1
@@ -2392,7 +2369,7 @@ device=CAPACITOR
 T 12300 16200 5 10 0 0 90 0 1
 symversion=0.1
 T 13200 16000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 12700 16700 5 10 1 1 180 0 1
 refdes=C110
 T 12400 16300 5 10 1 1 0 0 1
@@ -2737,7 +2714,7 @@ device=CAPACITOR
 T 14500 9900 5 10 1 1 180 0 1
 value=0.1uf
 T 15000 9400 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 14500 10100 5 10 1 1 180 0 1
 refdes=C104
 }
@@ -2791,7 +2768,7 @@ device=CAPACITOR
 T 16000 8700 5 10 1 1 180 0 1
 value=0.1uf
 T 16500 8200 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 16000 8900 5 10 1 1 180 0 1
 refdes=C107
 }
@@ -2840,7 +2817,7 @@ device=CAPACITOR
 T 16800 9800 5 10 1 1 180 0 1
 value=0.1uf
 T 17300 9400 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 16900 10100 5 10 1 1 180 0 1
 refdes=C106
 }
@@ -2928,7 +2905,7 @@ pinnumber=1
 T 18100 9600 5 10 0 0 90 0 1
 device=CAPACITOR
 T 18800 9400 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 19300 9800 5 10 1 1 180 0 1
 value=0.1uf
 T 19300 10000 5 10 1 1 180 0 1
@@ -3020,7 +2997,7 @@ device=RESISTOR
 T 17800 9700 5 10 1 1 0 0 1
 value=1.96k
 T 17700 9400 5 10 0 1 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 17800 9900 5 10 1 1 0 0 1
 refdes=R101
 }
@@ -3071,7 +3048,7 @@ device=CAPACITOR
 T 6300 5400 5 10 1 1 180 0 1
 value=0.1uf
 T 6800 4900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 6300 5600 5 10 1 1 180 0 1
 refdes=C109
 }
@@ -3137,7 +3114,7 @@ pinnumber=1
 T 7100 5100 5 10 0 0 90 0 1
 device=CAPACITOR
 T 7800 4900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 7300 5400 5 10 1 1 180 0 1
 value=0.1uf
 T 7300 5600 5 10 1 1 180 0 1
@@ -3205,7 +3182,7 @@ pinnumber=1
 T 8100 5100 5 10 0 0 90 0 1
 device=CAPACITOR
 T 8800 4900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 8300 5400 5 10 1 1 180 0 1
 value=0.1uf
 T 8300 5600 5 10 1 1 180 0 1
@@ -3273,7 +3250,7 @@ pinnumber=1
 T 9100 5100 5 10 0 0 90 0 1
 device=CAPACITOR
 T 9800 4900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 9300 5400 5 10 1 1 180 0 1
 value=0.1uf
 T 9300 5600 5 10 1 1 180 0 1
@@ -3318,55 +3295,6 @@ T 6658 1961 5 4 0 1 0 0 1
 pinnumber=1
 }
 ]
-C 7800 2100 1 90 0 EMBEDDEDcapacitor-1.sym
-[
-T 6900 2300 5 10 0 0 90 0 1
-symversion=0.1
-T 6700 2300 5 10 0 0 90 0 1
-numslots=0
-T 6500 2300 5 10 0 0 90 0 1
-description=capacitor
-T 7300 2300 8 10 0 1 90 0 1
-refdes=C?
-T 7100 2300 5 10 0 0 90 0 1
-device=CAPACITOR
-L 7600 2500 7600 2300 3 0 0 0 -1 -1
-L 7600 2800 7600 2600 3 0 0 0 -1 -1
-L 7400 2600 7800 2600 3 0 0 0 -1 -1
-L 7400 2500 7800 2500 3 0 0 0 -1 -1
-P 7600 3000 7600 2800 1 0 0
-{
-T 7600 2800 5 8 0 1 90 8 1
-pintype=pas
-T 7600 2800 9 8 0 1 90 6 1
-pinlabel=2
-T 7650 2850 5 8 0 1 90 2 1
-pinseq=2
-T 7550 2850 5 8 0 1 90 0 1
-pinnumber=2
-}
-P 7600 2100 7600 2300 1 0 0
-{
-T 7600 2300 5 8 0 1 90 2 1
-pintype=pas
-T 7600 2300 9 8 0 1 90 0 1
-pinlabel=1
-T 7650 2250 5 8 0 1 90 8 1
-pinseq=1
-T 7550 2250 5 8 0 1 90 6 1
-pinnumber=1
-}
-]
-{
-T 7100 2300 5 10 0 0 90 0 1
-device=CAPACITOR
-T 7800 2100 5 10 0 0 0 0 1
-footprint=my_0603_sm
-T 7300 2600 5 10 1 1 180 0 1
-value=0.1uf
-T 7300 2800 5 10 1 1 180 0 1
-refdes=C114
-}
 C 7500 1800 1 0 0 EMBEDDEDgnd-1.sym
 [
 T 7800 1850 8 10 0 0 0 0 1
@@ -3386,55 +3314,6 @@ T 7658 1961 5 4 0 1 0 0 1
 pinnumber=1
 }
 ]
-C 8800 2100 1 90 0 EMBEDDEDcapacitor-1.sym
-[
-T 7900 2300 5 10 0 0 90 0 1
-symversion=0.1
-T 7700 2300 5 10 0 0 90 0 1
-numslots=0
-T 7500 2300 5 10 0 0 90 0 1
-description=capacitor
-T 8300 2300 8 10 0 1 90 0 1
-refdes=C?
-T 8100 2300 5 10 0 0 90 0 1
-device=CAPACITOR
-L 8600 2500 8600 2300 3 0 0 0 -1 -1
-L 8600 2800 8600 2600 3 0 0 0 -1 -1
-L 8400 2600 8800 2600 3 0 0 0 -1 -1
-L 8400 2500 8800 2500 3 0 0 0 -1 -1
-P 8600 3000 8600 2800 1 0 0
-{
-T 8600 2800 5 8 0 1 90 8 1
-pintype=pas
-T 8600 2800 9 8 0 1 90 6 1
-pinlabel=2
-T 8650 2850 5 8 0 1 90 2 1
-pinseq=2
-T 8550 2850 5 8 0 1 90 0 1
-pinnumber=2
-}
-P 8600 2100 8600 2300 1 0 0
-{
-T 8600 2300 5 8 0 1 90 2 1
-pintype=pas
-T 8600 2300 9 8 0 1 90 0 1
-pinlabel=1
-T 8650 2250 5 8 0 1 90 8 1
-pinseq=1
-T 8550 2250 5 8 0 1 90 6 1
-pinnumber=1
-}
-]
-{
-T 8100 2300 5 10 0 0 90 0 1
-device=CAPACITOR
-T 8800 2100 5 10 0 0 0 0 1
-footprint=my_0603_sm
-T 8300 2600 5 10 1 1 180 0 1
-value=0.1uf
-T 8300 2800 5 10 1 1 180 0 1
-refdes=C115
-}
 C 8500 1800 1 0 0 EMBEDDEDgnd-1.sym
 [
 T 8800 1850 8 10 0 0 0 0 1
@@ -3454,56 +3333,7 @@ T 8658 1961 5 4 0 1 0 0 1
 pinnumber=1
 }
 ]
-N 8600 3000 5300 3000 4
-C 6800 2100 1 90 0 EMBEDDEDcapacitor-1.sym
-[
-T 5900 2300 5 10 0 0 90 0 1
-symversion=0.1
-T 5700 2300 5 10 0 0 90 0 1
-numslots=0
-T 5500 2300 5 10 0 0 90 0 1
-description=capacitor
-T 6300 2300 8 10 0 1 90 0 1
-refdes=C?
-T 6100 2300 5 10 0 0 90 0 1
-device=CAPACITOR
-L 6600 2500 6600 2300 3 0 0 0 -1 -1
-L 6600 2800 6600 2600 3 0 0 0 -1 -1
-L 6400 2600 6800 2600 3 0 0 0 -1 -1
-L 6400 2500 6800 2500 3 0 0 0 -1 -1
-P 6600 3000 6600 2800 1 0 0
-{
-T 6600 2800 5 8 0 1 90 8 1
-pintype=pas
-T 6600 2800 9 8 0 1 90 6 1
-pinlabel=2
-T 6650 2850 5 8 0 1 90 2 1
-pinseq=2
-T 6550 2850 5 8 0 1 90 0 1
-pinnumber=2
-}
-P 6600 2100 6600 2300 1 0 0
-{
-T 6600 2300 5 8 0 1 90 2 1
-pintype=pas
-T 6600 2300 9 8 0 1 90 0 1
-pinlabel=1
-T 6650 2250 5 8 0 1 90 8 1
-pinseq=1
-T 6550 2250 5 8 0 1 90 6 1
-pinnumber=1
-}
-]
-{
-T 6100 2300 5 10 0 0 90 0 1
-device=CAPACITOR
-T 6800 2100 5 10 0 0 0 0 1
-footprint=my_0603_sm
-T 6300 2600 5 10 1 1 180 0 1
-value=0.1uf
-T 6300 2800 5 10 1 1 180 0 1
-refdes=C113
-}
+N 10600 3000 5300 3000 4
 C 13700 4400 1 0 0 EMBEDDEDmcp23s08.sym
 [
 T 15162 6598 8 10 0 1 0 0 1
@@ -3857,11 +3687,11 @@ pintype=pas
 T 10100 5100 5 10 0 0 90 0 1
 device=CAPACITOR
 T 10800 4900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 10300 5400 5 10 1 1 180 0 1
 value=0.1uf
 T 10300 5600 5 10 1 1 180 0 1
-refdes=C115
+refdes=C113
 }
 C 10500 4600 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -3984,7 +3814,7 @@ device=74HCT04
 T 19900 6500 5 10 1 1 0 0 1
 refdes=U105
 T 20200 9200 5 10 0 0 0 0 1
-footprint=SO14
+footprint=DHVQFN14
 T 19600 5700 5 10 0 0 0 0 1
 slot=6
 }
@@ -4353,7 +4183,7 @@ refdes=U105
 T 20200 4700 5 10 0 0 0 0 1
 device=74HCT04
 T 20200 7300 5 10 0 0 0 0 1
-footprint=SO14
+footprint=DHVQFN14
 T 19600 3800 5 10 0 0 0 0 1
 slot=5
 }
@@ -4501,7 +4331,7 @@ refdes=U105
 T 20200 3600 5 10 0 0 0 0 1
 device=74HCT04
 T 20200 6200 5 10 0 0 0 0 1
-footprint=SO14
+footprint=DHVQFN14
 T 19600 2700 5 10 0 0 0 0 1
 slot=4
 }
@@ -4726,7 +4556,7 @@ device=74HCT04
 T 18600 6500 5 10 1 1 0 0 1
 refdes=U105
 T 18900 9200 5 10 0 0 0 0 1
-footprint=SO14
+footprint=DHVQFN14
 }
 N 19400 6200 19600 6200 4
 C 18300 3800 1 0 0 EMBEDDED7404-1.sym
@@ -4801,7 +4631,7 @@ refdes=U105
 T 18900 4700 5 10 0 0 0 0 1
 device=74HCT04
 T 18900 7300 5 10 0 0 0 0 1
-footprint=SO14
+footprint=DHVQFN14
 T 18300 3800 5 10 0 0 0 0 1
 slot=2
 }
@@ -4878,7 +4708,7 @@ refdes=U105
 T 18900 3600 5 10 0 0 0 0 1
 device=74HCT04
 T 18900 6200 5 10 0 0 0 0 1
-footprint=SO14
+footprint=DHVQFN14
 T 18300 2700 5 10 0 0 0 0 1
 slot=3
 }
@@ -5126,7 +4956,7 @@ device=RESISTOR
 T 18400 16200 5 10 1 1 0 0 1
 value=0
 T 18300 15900 5 10 0 1 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 18400 16400 5 10 1 1 0 0 1
 refdes=R102
 }
@@ -5218,7 +5048,7 @@ device=CAPACITOR
 T 16600 16100 5 10 0 0 90 0 1
 symversion=0.1
 T 17500 15900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 17000 16600 5 10 1 1 180 0 1
 refdes=C116
 T 16700 16200 5 10 1 1 0 0 1
@@ -5420,3 +5250,266 @@ N 4600 9400 4900 9400 4
 T 5300 8500 9 10 1 0 0 0 2
 VDD_5V - direct connect to
 raw BBB power input
+C 10000 2100 1 90 0 EMBEDDEDcapacitor-1.sym
+[
+L 9800 2500 9800 2300 3 0 0 0 -1 -1
+L 9800 2800 9800 2600 3 0 0 0 -1 -1
+L 9600 2600 10000 2600 3 0 0 0 -1 -1
+L 9600 2500 10000 2500 3 0 0 0 -1 -1
+P 9800 3000 9800 2800 1 0 0
+{
+T 9800 2800 5 8 0 1 90 8 1
+pintype=pas
+T 9800 2800 9 8 0 1 90 6 1
+pinlabel=2
+T 9850 2850 5 8 0 1 90 2 1
+pinseq=2
+T 9750 2850 5 8 0 1 90 0 1
+pinnumber=2
+}
+P 9800 2100 9800 2300 1 0 0
+{
+T 9800 2300 5 8 0 1 90 2 1
+pintype=pas
+T 9800 2300 9 8 0 1 90 0 1
+pinlabel=1
+T 9850 2250 5 8 0 1 90 8 1
+pinseq=1
+T 9750 2250 5 8 0 1 90 6 1
+pinnumber=1
+}
+T 9100 2300 5 10 0 0 90 0 1
+symversion=0.1
+T 8900 2300 5 10 0 0 90 0 1
+numslots=0
+T 8700 2300 5 10 0 0 90 0 1
+description=capacitor
+T 9500 2300 8 10 0 1 90 0 1
+refdes=C?
+T 9300 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+]
+{
+T 9300 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 10000 2100 5 10 0 0 0 0 1
+footprint=my_0402_sm
+T 9500 2600 5 10 1 1 180 0 1
+value=0.1uf
+T 9500 2800 5 10 1 1 180 0 1
+refdes=C117
+}
+C 6800 2100 1 90 0 EMBEDDEDcapacitor-1.sym
+[
+L 6600 2500 6600 2300 3 0 0 0 -1 -1
+L 6600 2800 6600 2600 3 0 0 0 -1 -1
+L 6400 2600 6800 2600 3 0 0 0 -1 -1
+L 6400 2500 6800 2500 3 0 0 0 -1 -1
+P 6600 3000 6600 2800 1 0 0
+{
+T 6600 2800 5 8 0 1 90 8 1
+pintype=pas
+T 6600 2800 9 8 0 1 90 6 1
+pinlabel=2
+T 6650 2850 5 8 0 1 90 2 1
+pinseq=2
+T 6550 2850 5 8 0 1 90 0 1
+pinnumber=2
+}
+P 6600 2100 6600 2300 1 0 0
+{
+T 6600 2300 5 8 0 1 90 2 1
+pintype=pas
+T 6600 2300 9 8 0 1 90 0 1
+pinlabel=1
+T 6650 2250 5 8 0 1 90 8 1
+pinseq=1
+T 6550 2250 5 8 0 1 90 6 1
+pinnumber=1
+}
+T 5900 2300 5 10 0 0 90 0 1
+symversion=0.1
+T 5700 2300 5 10 0 0 90 0 1
+numslots=0
+T 5500 2300 5 10 0 0 90 0 1
+description=capacitor
+T 6300 2300 8 10 0 1 90 0 1
+refdes=C?
+T 6100 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+]
+{
+T 6100 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 6800 2100 5 10 0 0 0 0 1
+footprint=my_0402_sm
+T 6300 2600 5 10 1 1 180 0 1
+value=0.1uf
+T 6300 2800 5 10 1 1 180 0 1
+refdes=C114
+}
+C 7800 2100 1 90 0 EMBEDDEDcapacitor-1.sym
+[
+L 7600 2500 7600 2300 3 0 0 0 -1 -1
+L 7600 2800 7600 2600 3 0 0 0 -1 -1
+L 7400 2600 7800 2600 3 0 0 0 -1 -1
+L 7400 2500 7800 2500 3 0 0 0 -1 -1
+P 7600 3000 7600 2800 1 0 0
+{
+T 7600 2800 5 8 0 1 90 8 1
+pintype=pas
+T 7600 2800 9 8 0 1 90 6 1
+pinlabel=2
+T 7650 2850 5 8 0 1 90 2 1
+pinseq=2
+T 7550 2850 5 8 0 1 90 0 1
+pinnumber=2
+}
+P 7600 2100 7600 2300 1 0 0
+{
+T 7600 2300 5 8 0 1 90 2 1
+pintype=pas
+T 7600 2300 9 8 0 1 90 0 1
+pinlabel=1
+T 7650 2250 5 8 0 1 90 8 1
+pinseq=1
+T 7550 2250 5 8 0 1 90 6 1
+pinnumber=1
+}
+T 6900 2300 5 10 0 0 90 0 1
+symversion=0.1
+T 6700 2300 5 10 0 0 90 0 1
+numslots=0
+T 6500 2300 5 10 0 0 90 0 1
+description=capacitor
+T 7300 2300 8 10 0 1 90 0 1
+refdes=C?
+T 7100 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+]
+{
+T 7100 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 7800 2100 5 10 0 0 0 0 1
+footprint=my_0402_sm
+T 7300 2600 5 10 1 1 180 0 1
+value=0.1uf
+T 7300 2800 5 10 1 1 180 0 1
+refdes=C115
+}
+C 8800 2100 1 90 0 EMBEDDEDcapacitor-1.sym
+[
+L 8600 2500 8600 2300 3 0 0 0 -1 -1
+L 8600 2800 8600 2600 3 0 0 0 -1 -1
+L 8400 2600 8800 2600 3 0 0 0 -1 -1
+L 8400 2500 8800 2500 3 0 0 0 -1 -1
+P 8600 3000 8600 2800 1 0 0
+{
+T 8600 2800 5 8 0 1 90 8 1
+pintype=pas
+T 8600 2800 9 8 0 1 90 6 1
+pinlabel=2
+T 8650 2850 5 8 0 1 90 2 1
+pinseq=2
+T 8550 2850 5 8 0 1 90 0 1
+pinnumber=2
+}
+P 8600 2100 8600 2300 1 0 0
+{
+T 8600 2300 5 8 0 1 90 2 1
+pintype=pas
+T 8600 2300 9 8 0 1 90 0 1
+pinlabel=1
+T 8650 2250 5 8 0 1 90 8 1
+pinseq=1
+T 8550 2250 5 8 0 1 90 6 1
+pinnumber=1
+}
+T 7900 2300 5 10 0 0 90 0 1
+symversion=0.1
+T 7700 2300 5 10 0 0 90 0 1
+numslots=0
+T 7500 2300 5 10 0 0 90 0 1
+description=capacitor
+T 8300 2300 8 10 0 1 90 0 1
+refdes=C?
+T 8100 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+]
+{
+T 8100 2300 5 10 0 0 90 0 1
+device=CAPACITOR
+T 8800 2100 5 10 0 0 0 0 1
+footprint=my_0402_sm
+T 8300 2600 5 10 1 1 180 0 1
+value=0.1uf
+T 8300 2800 5 10 1 1 180 0 1
+refdes=C116
+}
+C 9700 1800 1 0 0 EMBEDDEDgnd-1.sym
+[
+L 9780 1810 9820 1810 3 0 0 0 -1 -1
+L 9755 1850 9845 1850 3 0 0 0 -1 -1
+L 9700 1900 9900 1900 3 0 0 0 -1 -1
+P 9800 1900 9800 2100 1 0 1
+{
+T 9858 1961 5 4 0 1 0 0 1
+pintype=pwr
+T 9858 1961 5 4 0 1 0 0 1
+pinlabel=1
+T 9858 1961 5 4 0 0 0 0 1
+pinseq=1
+T 9858 1961 5 4 0 1 0 0 1
+pinnumber=1
+}
+T 10000 1850 8 10 0 0 0 0 1
+net=GND:1
+]
+C 10400 3000 1 0 0 EMBEDDEDgeneric-power.sym
+[
+L 10450 3200 10750 3200 3 0 0 0 -1 -1
+P 10600 3000 10600 3200 1 0 0
+{
+T 10650 3050 5 6 0 1 0 0 1
+pinnumber=1
+T 10650 3050 5 6 0 0 0 0 1
+pinseq=1
+T 10650 3050 5 6 0 1 0 0 1
+pinlabel=1
+T 10650 3050 5 6 0 1 0 0 1
+pintype=pwr
+}
+T 10600 3250 8 10 0 1 0 3 1
+net=Vcc:1
+]
+{
+T 10600 3250 5 10 0 1 0 3 1
+net=Vcc:1
+T 10400 3200 5 10 1 1 0 0 1
+value=Vcc
+}
+C 5100 3200 1 0 0 EMBEDDEDgeneric-power.sym
+[
+L 5150 3400 5450 3400 3 0 0 0 -1 -1
+P 5300 3200 5300 3400 1 0 0
+{
+T 5350 3250 5 6 0 1 0 0 1
+pinnumber=1
+T 5350 3250 5 6 0 0 0 0 1
+pinseq=1
+T 5350 3250 5 6 0 1 0 0 1
+pinlabel=1
+T 5350 3250 5 6 0 1 0 0 1
+pintype=pwr
+}
+T 5300 3450 8 10 0 1 0 3 1
+net=Vcc:1
+]
+{
+T 5300 3450 5 10 0 1 0 3 1
+net=AVDD:1
+T 5100 3400 5 10 1 1 0 0 1
+value=AVDD
+}
+T 9600 3500 9 10 1 0 0 0 1
+(for implicit supply of HCT04)

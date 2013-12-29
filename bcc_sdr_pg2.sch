@@ -200,7 +200,7 @@ symversion=0.1
 T 15800 4600 5 10 1 1 0 0 1
 value=100pf
 T 15600 4100 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 22500 9200 1 0 1 EMBEDDEDBNC-1.sym
 [
@@ -1276,7 +1276,7 @@ symversion=0.1
 T 18300 4600 5 10 1 1 0 0 1
 value=100pf
 T 18100 4100 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 5300 3800 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -1366,7 +1366,7 @@ refdes=R208
 T 15700 11700 5 10 1 1 0 0 1
 value=51 1%
 T 16500 11500 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 16400 10200 16400 9900 4
 N 15300 10500 15300 10400 4
@@ -1420,7 +1420,7 @@ symversion=0.1
 T 17000 10200 5 10 1 1 0 0 1
 value=100pf
 T 16800 9700 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 21100 9500 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -1471,7 +1471,7 @@ symversion=0.1
 T 21300 10000 5 10 1 1 0 0 1
 value=100pf
 T 21100 9500 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 13600 9700 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -1522,7 +1522,7 @@ symversion=0.1
 T 13800 10200 5 10 1 1 0 0 1
 value=100pf
 T 13600 9700 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 14800 9900 14500 9900 4
 N 19000 4300 20300 4300 4
@@ -1720,7 +1720,7 @@ refdes=L206
 T 16000 5200 5 10 0 0 90 0 1
 symversion=0.1
 T 16700 5000 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 16600 5000 16600 4300 4
 C 16400 6800 1 0 0 EMBEDDED5V-plus-1.sym
@@ -1809,7 +1809,7 @@ refdes=R209
 T 15900 6100 5 10 1 1 0 0 1
 value=60 1%
 T 16700 5900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 16500 10200 1 90 0 EMBEDDEDinductor-1.sym
 [
@@ -1863,7 +1863,7 @@ refdes=L205
 T 15800 10400 5 10 0 0 90 0 1
 symversion=0.1
 T 16500 10200 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 16400 11500 16900 11500 4
 N 16900 11500 16900 12600 4
@@ -1968,7 +1968,7 @@ symversion=0.1
 T 18500 12100 5 10 1 1 180 0 1
 value=0.1uf
 T 18900 11700 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 19900 11700 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -2019,7 +2019,7 @@ symversion=0.1
 T 19500 12100 5 10 1 1 180 0 1
 value=0.01uf
 T 19900 11700 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 17600 11400 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -2180,7 +2180,7 @@ refdes=C219
 T 18600 6500 5 10 1 1 180 0 1
 value=0.1uf
 T 19000 6100 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 20000 6100 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -2231,7 +2231,7 @@ refdes=C220
 T 19600 6500 5 10 1 1 180 0 1
 value=0.01uf
 T 20000 6100 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 17700 5800 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -2517,7 +2517,7 @@ refdes=R207
 T 6100 11600 5 10 1 1 0 0 1
 value=51 1%
 T 6900 11400 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 7300 11400 7300 12500 4
 N 6800 11400 7300 11400 4
@@ -2623,7 +2623,7 @@ symversion=0.1
 T 8900 12000 5 10 1 1 180 0 1
 value=0.1uf
 T 9300 11600 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 10300 11600 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -2674,7 +2674,7 @@ symversion=0.1
 T 9900 12000 5 10 1 1 180 0 1
 value=0.01uf
 T 10300 11600 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 10000 11300 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -2782,7 +2782,7 @@ symversion=0.1
 T 7400 10100 5 10 1 1 0 0 1
 value=220pf
 T 7200 9600 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 6800 10100 6800 9800 4
 C 6900 10100 1 90 0 EMBEDDEDinductor-1.sym
@@ -2837,7 +2837,7 @@ device=INDUCTOR
 T 6200 10300 5 10 0 0 90 0 1
 symversion=0.1
 T 6900 10100 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 6200 9800 7200 9800 4
 C 4000 9600 1 0 0 EMBEDDEDcapacitor-1.sym
@@ -2889,7 +2889,7 @@ symversion=0.1
 T 4200 10100 5 10 1 1 0 0 1
 value=100pf
 T 4000 9600 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 5200 9800 4900 9800 4
 N 5700 9300 5700 9200 4
@@ -3008,7 +3008,7 @@ refdes=R205
 T 4300 11500 5 10 1 1 0 0 1
 value=18.2 1%
 T 5200 11300 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 4200 12100 1 0 0 EMBEDDEDresistor-1.sym
 [
@@ -3058,7 +3058,7 @@ refdes=R204
 T 4900 12600 5 10 1 1 180 0 1
 value=34.8 1%
 T 4200 12100 5 10 0 0 270 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 5100 12100 1 0 0 EMBEDDEDresistor-1.sym
 [
@@ -3108,7 +3108,7 @@ refdes=R206
 T 5800 12600 5 10 1 1 180 0 1
 value=34.8 1%
 T 5100 12100 5 10 0 0 270 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 5000 11000 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -3183,7 +3183,7 @@ refdes=L202
 T 7500 9100 5 10 0 0 90 0 1
 symversion=0.1
 T 8200 8900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 7400 9100 5 10 1 1 0 0 1
 value=180nH
 }
@@ -3236,7 +3236,7 @@ symversion=0.1
 T 8300 10100 5 10 1 1 0 0 1
 value=47pf
 T 8100 9600 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 9000 9600 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -3287,7 +3287,7 @@ symversion=0.1
 T 9200 10100 5 10 1 1 0 0 1
 value=47pf
 T 9000 9600 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 9900 9600 1 0 0 EMBEDDEDcapacitor-1.sym
 [
@@ -3338,7 +3338,7 @@ symversion=0.1
 T 10100 10100 5 10 1 1 0 0 1
 value=220pf
 T 9900 9600 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 9100 8900 1 90 0 EMBEDDEDinductor-1.sym
 [
@@ -3392,7 +3392,7 @@ refdes=L203
 T 8400 9100 5 10 0 0 90 0 1
 symversion=0.1
 T 9100 8900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 8300 9100 5 10 1 1 0 0 1
 value=120nH
 }
@@ -3448,7 +3448,7 @@ refdes=L204
 T 9300 9100 5 10 0 0 90 0 1
 symversion=0.1
 T 10000 8900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 T 9200 9100 5 10 1 1 0 0 1
 value=180nH
 }
@@ -3672,7 +3672,7 @@ symversion=0.1
 T 12300 4000 5 10 1 1 0 0 1
 value=100pf
 T 12100 3500 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 10000 5600 1 0 0 EMBEDDEDresistor-1.sym
 [
@@ -3722,7 +3722,7 @@ refdes=R212
 T 10700 6100 5 10 1 1 180 0 1
 value=66.5 1%
 T 10000 5600 5 10 0 0 270 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 10900 5600 1 0 0 EMBEDDEDresistor-1.sym
 [
@@ -3772,7 +3772,7 @@ refdes=R210
 T 11600 6100 5 10 1 1 180 0 1
 value=66.5 1%
 T 10900 5600 5 10 0 0 270 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 11000 4800 1 90 0 EMBEDDEDresistor-1.sym
 [
@@ -3822,7 +3822,7 @@ refdes=R211
 T 10100 5000 5 10 1 1 0 0 1
 value=16.5 1%
 T 11000 4800 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 10800 4500 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -3949,7 +3949,7 @@ symversion=0.1
 T 6300 6000 5 10 1 1 0 0 1
 value=100pf
 T 6100 5500 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 13500 14500 13600 14500 4
 N 7000 5700 10000 5700 4
@@ -4006,7 +4006,7 @@ refdes=L207
 T 6400 6600 5 10 0 0 90 0 1
 symversion=0.1
 T 7100 6400 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 7100 7300 1 90 0 EMBEDDEDresistor-1.sym
 [
@@ -4056,7 +4056,7 @@ refdes=R213
 T 6300 7500 5 10 1 1 0 0 1
 value=60 1%
 T 7100 7300 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 6800 8200 1 0 0 EMBEDDED5V-plus-1.sym
 [
@@ -4218,7 +4218,7 @@ refdes=C225
 T 9000 7900 5 10 1 1 180 0 1
 value=0.1uf
 T 9400 7500 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 10400 7500 1 90 0 EMBEDDEDcapacitor-1.sym
 [
@@ -4269,7 +4269,7 @@ refdes=C224
 T 10000 7900 5 10 1 1 180 0 1
 value=0.01uf
 T 10400 7500 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 10100 7200 1 0 0 EMBEDDEDgnd-1.sym
 [
@@ -4448,7 +4448,7 @@ symversion=0.1
 T 8700 6000 5 10 1 1 0 0 1
 value=100pf
 T 8500 5500 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 N 8200 5700 8500 5700 4
 N 7000 6400 7000 5700 4
@@ -4500,7 +4500,7 @@ refdes=R201
 T 4300 15200 5 10 1 1 180 0 1
 value=37.4 1%
 T 3600 14700 5 10 0 0 270 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 4600 13900 1 90 0 EMBEDDEDresistor-1.sym
 [
@@ -4550,7 +4550,7 @@ refdes=R202
 T 3700 14100 5 10 1 1 0 0 1
 value=14.3 1%
 T 4600 13900 5 10 0 0 0 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 C 4500 14700 1 0 0 EMBEDDEDresistor-1.sym
 [
@@ -4600,7 +4600,7 @@ refdes=R203
 T 5200 15200 5 10 1 1 180 0 1
 value=37.4 1%
 T 4500 14700 5 10 0 0 270 0 1
-footprint=my_0603_sm
+footprint=my_0402_sm
 }
 T 3900 15600 9 10 1 0 0 0 1
 -17db 50ohm 
