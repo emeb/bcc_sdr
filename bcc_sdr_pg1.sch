@@ -5981,7 +5981,7 @@ refdes=D101
 T 6800 4900 5 10 0 0 90 0 1
 footprint=SOD123
 T 6300 5400 5 10 1 1 180 0 1
-value=DNI
+value=1N4001
 }
 C 9300 2200 1 0 1 EMBEDDEDterminal-1.sym
 [
