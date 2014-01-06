@@ -3634,6 +3634,8 @@ T 18100 10100 5 10 0 1 0 0 1
 device=SHIELD
 T 18100 10100 5 10 1 1 0 0 1
 refdes=SH1
+T 17800 9100 5 10 0 0 0 0 1
+footprint=SHIELD-650-650_Lairdtech
 }
 C 18800 9100 1 0 0 EMBEDDEDshield.sym
 [
@@ -3670,6 +3672,8 @@ T 19100 10100 5 10 0 1 0 0 1
 device=SHIELD
 T 19100 10100 5 10 1 1 0 0 1
 refdes=SH2
+T 18800 9100 5 10 0 0 0 0 1
+footprint=SHIELD-650-650_Lairdtech
 }
 C 19800 9100 1 0 0 EMBEDDEDshield.sym
 [
