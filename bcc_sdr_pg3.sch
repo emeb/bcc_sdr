@@ -3821,7 +3821,7 @@ device=SHIELD
 T 18100 6600 5 10 1 1 0 0 1
 refdes=SH6
 T 17800 5600 5 10 0 0 0 0 1
-footprint=SHIELD-476-536_Lairdtech
+footprint=SHIELD-538-476_Lairdtech
 }
 C 18100 8800 1 0 0 EMBEDDEDgnd-1.sym
 [
