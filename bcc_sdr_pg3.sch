@@ -3749,7 +3749,7 @@ device=SHIELD
 T 18100 8300 5 10 1 1 0 0 1
 refdes=SH4
 T 17800 7300 5 10 0 0 0 0 1
-footprint=SHIELD-650-650_Lairdtech
+footprint=SHIELD-538-476_Lairdtech
 }
 C 18800 7300 1 0 0 EMBEDDEDshield.sym
 [
