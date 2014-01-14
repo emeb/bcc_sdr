@@ -1,4 +1,4 @@
-v 20110115 2
+v 20111231 2
 C 1000 1000 0 0 0 EMBEDDEDtitle-bordered-C.sym
 [
 B 1000 1000 22000 17000 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
@@ -623,9 +623,9 @@ value=IO
 ]
 {
 T 2300 14600 5 10 0 0 0 6 1
-net=PLL_SCLK:1
+net=SPI_SCLK:1
 T 2300 14500 5 10 1 1 0 7 1
-value=PLL_SCLK
+value=SPI_SCLK
 }
 C 3200 14200 1 0 1 EMBEDDEDio-1.sym
 [
@@ -657,9 +657,9 @@ value=IO
 ]
 {
 T 2300 14400 5 10 0 0 0 6 1
-net=PLL_SI:1
+net=SPI_MOSI:1
 T 2300 14300 5 10 1 1 0 7 1
-value=PLL_SI
+value=SPI_MOSI
 }
 C 3200 13800 1 0 1 EMBEDDEDio-1.sym
 [
