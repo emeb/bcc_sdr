@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["BeagleBone FPGA" 340000 215000]
 
 Grid[500.0 0 0 1]
-Cursor[340000 43000 0.000000]
+Cursor[23000 68000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -3114,36 +3114,37 @@ Rat[224500 35500 3 2000 51000 1  "via"]
 Rat[91500 80000 3 339648 50148 1  "via"]
 Rat[108500 79000 3 339648 50148 1  "via"]
 Rat[96500 72000 3 339648 50148 1  "via"]
-Rat[154890 132000 0 339648 50148 1  "via"]
+Rat[189047 132500 0 339648 50148 1  "via"]
 Rat[85992 132000 0 339648 50148 1  "via"]
+Rat[114929 132000 0 339648 50148 1  "via"]
 Rat[160110 132500 0 339648 50148 1  "via"]
 Rat[229008 132500 0 339648 50148 1  "via"]
 Rat[107520 56606 0 339648 50148 1  "via"]
 Rat[107520 7394 0 25000 2000 1  "via"]
-Rat[114929 132000 0 339648 50148 1  "via"]
 Rat[114929 63102 0 339648 50148 1  "via"]
+Rat[154890 63102 0 339648 50148 1  "via"]
 Rat[88504 56606 0 339648 50148 1  "via"]
 Rat[88504 7394 0 25000 2000 1  "via"]
 Rat[88504 26488 0 2000 51000 1  "via"]
 Rat[141496 26488 0 2000 51000 1  "via"]
-Rat[154890 63102 0 339648 50148 1  "via"]
 Rat[85992 63102 0 339648 50148 1  "via"]
+Rat[154890 92039 0 339648 50148 1  "via"]
 Rat[141496 56606 0 339648 50148 1  "via"]
 Rat[141496 7394 0 25000 2000 1  "via"]
-Rat[154890 92039 0 339648 50148 1  "via"]
-Rat[148004 26382 0 2000 51000 1  "via"]
-Rat[189047 132500 0 339648 50148 1  "via"]
-Rat[148004 56500 0 339648 50148 1  "via"]
+Rat[85992 92039 0 339648 50148 1  "via"]
+Rat[148004 7288 0 25000 2000 1  "via"]
+Rat[189047 63602 0 339648 50148 1  "via"]
 Rat[167020 7288 0 25000 2000 1  "via"]
 Rat[167020 56500 0 339648 50148 1  "via"]
-Rat[217607 139426 0 339648 50148 1  "via"]
-Rat[85992 92039 0 339648 50148 1  "via"]
 Rat[80606 86000 0 339648 50148 1  "via"]
+Rat[217607 139426 0 339648 50148 1  "via"]
+Rat[31394 86000 0 339648 50148 1  "via"]
 Rat[231492 161894 0 339648 50148 1  "via"]
 Rat[231492 211106 0 25500 189000 1  "via"]
 Rat[231492 180988 0 2000 164000 1  "via"]
 Rat[178500 180988 0 2000 164000 1  "via"]
-Rat[31394 86000 0 339648 50148 1  "via"]
+Rat[50488 86000 0 339648 50148 1  "via"]
+Rat[50488 33008 0 2000 51000 1  "via"]
 Rat[5750 64500 0 339648 50148 1  "via"]
 Rat[5750 64500 3 339648 50148 1  "via"]
 Rat[5750 30500 0 2000 51000 1  "via"]
@@ -3152,44 +3153,44 @@ Rat[5750 159500 0 339648 50148 1  "via"]
 Rat[5750 159500 3 339648 50148 1  "via"]
 Rat[5750 125500 0 339648 50148 1  "via"]
 Rat[5750 125500 3 339648 50148 1  "via"]
-Rat[50488 86000 0 339648 50148 1  "via"]
 Rat[178500 161894 0 339648 50148 1  "via"]
 Rat[178500 211106 0 25500 189000 1  "via"]
 Rat[197516 161894 0 339648 50148 1  "via"]
 Rat[197516 211106 0 25500 189000 1  "via"]
-Rat[50488 33008 0 2000 51000 1  "via"]
 Rat[80606 33008 0 2000 51000 1  "via"]
+Rat[31394 33008 0 2000 51000 1  "via"]
 Rat[140000 139394 0 339648 50148 1  "via"]
 Rat[140000 188606 0 2000 164000 1  "via"]
 Rat[140000 158488 0 339648 50148 1  "via"]
 Rat[87008 158488 0 339648 50148 1  "via"]
-Rat[31394 33008 0 2000 51000 1  "via"]
 Rat[80606 52024 0 339648 50148 1  "via"]
+Rat[31394 52024 0 339648 50148 1  "via"]
 Rat[87008 139394 0 339648 50148 1  "via"]
 Rat[87008 188606 0 2000 164000 1  "via"]
 Rat[106024 139394 0 339648 50148 1  "via"]
 Rat[106024 188606 0 2000 164000 1  "via"]
-Rat[189047 63602 0 339648 50148 1  "via"]
-Rat[229008 63602 0 339648 50148 1  "via"]
-Rat[31394 52024 0 339648 50148 1  "via"]
 Rat[200996 7288 0 25000 2000 1  "via"]
+Rat[229008 63602 0 339648 50148 1  "via"]
+Rat[160110 63602 0 339648 50148 1  "via"]
+Rat[200996 56500 0 339648 50148 1  "via"]
 Rat[78799 130788 0 339648 50148 1  "via"]
 Rat[78799 180000 0 2000 164000 1  "via"]
 Rat[78799 149882 0 339648 50148 1  "via"]
 Rat[25807 149882 0 339648 50148 1  "via"]
+Rat[200996 26382 0 2000 51000 1  "via"]
 Rat[172804 41732 0 2000 51000 1  "via"]
 Rat[180107 46426 0 2000 51000 1  "via"]
 Rat[185107 46426 0 2000 51000 1  "via"]
-Rat[200996 56500 0 339648 50148 1  "via"]
-Rat[200996 26382 0 2000 51000 1  "via"]
+Rat[148004 26382 0 2000 51000 1  "via"]
 Rat[25807 130788 0 339648 50148 1  "via"]
 Rat[25807 180000 0 2000 164000 1  "via"]
 Rat[44823 130788 0 339648 50148 1  "via"]
 Rat[44823 180000 0 2000 164000 1  "via"]
+Rat[229000 155500 0 339648 50148 1  "via"]
 Rat[100607 182074 0 2000 164000 1  "via"]
 Rat[106107 182074 0 2000 164000 1  "via"]
-Rat[229000 155500 0 339648 50148 1  "via"]
-Rat[160110 63602 0 339648 50148 1  "via"]
+Rat[154890 132000 0 339648 50148 1  "via"]
+Rat[271500 126000 0 339648 50148 1  "via"]
 Rat[276400 27000 0 2000 51000 1  "via"]
 Rat[119819 157244 0 339648 50148 1  "via"]
 Rat[119819 181244 0 2000 164000 1  "via"]
@@ -3199,7 +3200,7 @@ Rat[55000 171500 0 2000 164000 1  "via"]
 Rat[47000 142500 0 339648 50148 1  "via"]
 Rat[205803 18888 0 25000 2000 1  "via"]
 Rat[160110 92539 0 339648 50148 1  "via"]
-Rat[148004 7288 0 25000 2000 1  "via"]
+Rat[148004 56500 0 339648 50148 1  "via"]
 Rat[229008 92539 0 339648 50148 1  "via"]
 Rat[44500 39500 0 2000 51000 1  "via"]
 Rat[54506 49601 0 2000 51000 1  "via"]
@@ -3694,7 +3695,7 @@ Layer(1 "component")
 	Line[213803 25803 214000 26000 600 1200 "clearline"]
 	Line[213803 18888 249888 18888 1200 2400 "clearline"]
 	Line[253000 22000 253000 37050 1200 2400 "clearline"]
-	Line[26500 74700 26500 96500 1200 2400 "clearline"]
+	Line[26500 74800 26500 96500 1200 2400 "clearline"]
 	Line[30000 100000 37000 100000 1200 2400 "clearline"]
 	Line[18500 81500 18500 88500 600 1200 "clearline"]
 	Line[18500 88500 19000 89000 600 1200 "clearline"]
@@ -4856,6 +4857,7 @@ NetList()
 		Connect("U103-55")
 		Connect("U103-59")
 		Connect("U103-63")
+		Connect("U103-65")
 		Connect("U104-2")
 		Connect("U104-3")
 		Connect("U104-17")
@@ -5035,10 +5037,11 @@ NetList()
 		Connect("C319-1")
 		Connect("U208-6")
 	)
-	Net("LO1" "(unknown)")
+	Net("LO1A" "(unknown)")
 	(
-		Connect("C320-1")
-		Connect("U202-6")
+		Connect("JP301-3")
+		Connect("R304-1")
+		Connect("U301-12")
 	)
 	Net("LO1B" "(unknown)")
 	(
@@ -5046,11 +5049,10 @@ NetList()
 		Connect("R311-1")
 		Connect("U302-12")
 	)
-	Net("LO1A" "(unknown)")
+	Net("LO1" "(unknown)")
 	(
-		Connect("JP301-3")
-		Connect("R304-1")
-		Connect("U301-12")
+		Connect("C320-1")
+		Connect("U202-6")
 	)
 	Net("MC_CS" "(unknown)")
 	(
@@ -5161,37 +5163,37 @@ NetList()
 	)
 	Net("unnamed_net1" "(unknown)")
 	(
-		Connect("R106-2")
-		Connect("U103-41")
-	)
-	Net("unnamed_net2" "(unknown)")
-	(
-		Connect("C109-2")
-		Connect("U103-42")
-	)
-	Net("unnamed_net3" "(unknown)")
-	(
 		Connect("C106-2")
 		Connect("C107-2")
 		Connect("C108-2")
 		Connect("U103-33")
 	)
-	Net("unnamed_net4" "(unknown)")
-	(
-		Connect("T102-6")
-		Connect("U103-37")
-	)
-	Net("unnamed_net5" "(unknown)")
-	(
-		Connect("T102-4")
-		Connect("U103-38")
-	)
-	Net("unnamed_net6" "(unknown)")
+	Net("unnamed_net2" "(unknown)")
 	(
 		Connect("C106-1")
 		Connect("C107-1")
 		Connect("C113-2")
 		Connect("U103-32")
+	)
+	Net("unnamed_net3" "(unknown)")
+	(
+		Connect("C109-2")
+		Connect("U103-42")
+	)
+	Net("unnamed_net4" "(unknown)")
+	(
+		Connect("R106-2")
+		Connect("U103-41")
+	)
+	Net("unnamed_net5" "(unknown)")
+	(
+		Connect("R105-1")
+		Connect("T101-2")
+	)
+	Net("unnamed_net6" "(unknown)")
+	(
+		Connect("T101-1")
+		Connect("U103-50")
 	)
 	Net("unnamed_net7" "(unknown)")
 	(
@@ -5200,37 +5202,37 @@ NetList()
 	)
 	Net("unnamed_net8" "(unknown)")
 	(
-		Connect("T101-1")
-		Connect("U103-50")
+		Connect("T102-6")
+		Connect("U103-37")
 	)
 	Net("unnamed_net9" "(unknown)")
 	(
-		Connect("R105-1")
-		Connect("T101-2")
+		Connect("T102-4")
+		Connect("U103-38")
 	)
 	Net("unnamed_net10" "(unknown)")
 	(
-		Connect("C105-2")
-		Connect("R103-1")
-		Connect("R104-1")
-		Connect("U101-10")
+		Connect("L101-2")
+		Connect("U101-4")
 	)
 	Net("unnamed_net11" "(unknown)")
-	(
-		Connect("L102-1")
-		Connect("U101-7")
-	)
-	Net("unnamed_net12" "(unknown)")
 	(
 		Connect("C104-1")
 		Connect("R101-2")
 		Connect("R102-2")
 		Connect("U101-1")
 	)
+	Net("unnamed_net12" "(unknown)")
+	(
+		Connect("L102-1")
+		Connect("U101-7")
+	)
 	Net("unnamed_net13" "(unknown)")
 	(
-		Connect("L101-2")
-		Connect("U101-4")
+		Connect("C105-2")
+		Connect("R103-1")
+		Connect("R104-1")
+		Connect("U101-10")
 	)
 	Net("unnamed_net14" "(unknown)")
 	(
@@ -5250,24 +5252,24 @@ NetList()
 	)
 	Net("unnamed_net16" "(unknown)")
 	(
-		Connect("U104-9")
-		Connect("U105-13")
-	)
-	Net("unnamed_net17" "(unknown)")
-	(
 		Connect("U104-10")
 		Connect("U105-5")
 	)
+	Net("unnamed_net17" "(unknown)")
+	(
+		Connect("U104-9")
+		Connect("U105-13")
+	)
 	Net("unnamed_net18" "(unknown)")
+	(
+		Connect("C217-1")
+		Connect("U208-3")
+	)
+	Net("unnamed_net19" "(unknown)")
 	(
 		Connect("C217-2")
 		Connect("L206-1")
 		Connect("U210-3")
-	)
-	Net("unnamed_net19" "(unknown)")
-	(
-		Connect("C217-1")
-		Connect("U208-3")
 	)
 	Net("unnamed_net20" "(unknown)")
 	(
@@ -5281,8 +5283,8 @@ NetList()
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
-		Connect("C214-1")
-		Connect("U206-5")
+		Connect("C213-2")
+		Connect("U206-1")
 	)
 	Net("unnamed_net23" "(unknown)")
 	(
@@ -5291,13 +5293,13 @@ NetList()
 	)
 	Net("unnamed_net24" "(unknown)")
 	(
-		Connect("C213-2")
-		Connect("U206-1")
+		Connect("C214-1")
+		Connect("U206-5")
 	)
 	Net("unnamed_net25" "(unknown)")
 	(
-		Connect("U201-1")
-		Connect("U202-2")
+		Connect("R203-2")
+		Connect("U201-5")
 	)
 	Net("unnamed_net26" "(unknown)")
 	(
@@ -5306,13 +5308,13 @@ NetList()
 	)
 	Net("unnamed_net27" "(unknown)")
 	(
-		Connect("R203-2")
-		Connect("U201-5")
+		Connect("U201-1")
+		Connect("U202-2")
 	)
 	Net("unnamed_net28" "(unknown)")
 	(
-		Connect("C221-2")
-		Connect("U209-1")
+		Connect("JP201-2")
+		Connect("U209-5")
 	)
 	Net("unnamed_net29" "(unknown)")
 	(
@@ -5321,8 +5323,8 @@ NetList()
 	)
 	Net("unnamed_net30" "(unknown)")
 	(
-		Connect("JP201-2")
-		Connect("U209-5")
+		Connect("C221-2")
+		Connect("U209-1")
 	)
 	Net("unnamed_net31" "(unknown)")
 	(
@@ -5331,13 +5333,13 @@ NetList()
 	)
 	Net("unnamed_net32" "(unknown)")
 	(
-		Connect("C208-2")
-		Connect("U204-3")
+		Connect("C209-1")
+		Connect("U204-5")
 	)
 	Net("unnamed_net33" "(unknown)")
 	(
-		Connect("C209-1")
-		Connect("U204-5")
+		Connect("C208-2")
+		Connect("U204-3")
 	)
 	Net("unnamed_net34" "(unknown)")
 	(
@@ -5386,25 +5388,25 @@ NetList()
 	)
 	Net("unnamed_net41" "(unknown)")
 	(
-		Connect("C205-2")
-		Connect("C206-1")
-		Connect("L202-2")
-	)
-	Net("unnamed_net42" "(unknown)")
-	(
 		Connect("C205-1")
 		Connect("L201-1")
 		Connect("U203-3")
 	)
-	Net("unnamed_net43" "(unknown)")
+	Net("unnamed_net42" "(unknown)")
 	(
-		Connect("C201-2")
-		Connect("U203-1")
+		Connect("C205-2")
+		Connect("C206-1")
+		Connect("L202-2")
 	)
-	Net("unnamed_net44" "(unknown)")
+	Net("unnamed_net43" "(unknown)")
 	(
 		Connect("C201-1")
 		Connect("R204-1")
+	)
+	Net("unnamed_net44" "(unknown)")
+	(
+		Connect("C201-2")
+		Connect("U203-1")
 	)
 	Net("unnamed_net45" "(unknown)")
 	(
@@ -5431,14 +5433,14 @@ NetList()
 	)
 	Net("unnamed_net49" "(unknown)")
 	(
-		Connect("R210-1")
-		Connect("R211-2")
-		Connect("R212-2")
+		Connect("C223-2")
+		Connect("R212-1")
 	)
 	Net("unnamed_net50" "(unknown)")
 	(
-		Connect("C223-2")
-		Connect("R212-1")
+		Connect("R210-1")
+		Connect("R211-2")
+		Connect("R212-2")
 	)
 	Net("unnamed_net51" "(unknown)")
 	(
@@ -5490,16 +5492,16 @@ NetList()
 	)
 	Net("unnamed_net59" "(unknown)")
 	(
+		Connect("C309-2")
+		Connect("R302-2")
+		Connect("U301-20")
+	)
+	Net("unnamed_net60" "(unknown)")
+	(
 		Connect("C307-2")
 		Connect("C308-2")
 		Connect("R302-1")
 		Connect("U301-7")
-	)
-	Net("unnamed_net60" "(unknown)")
-	(
-		Connect("C309-2")
-		Connect("R302-2")
-		Connect("U301-20")
 	)
 	Net("unnamed_net61" "(unknown)")
 	(
@@ -5531,16 +5533,16 @@ NetList()
 	)
 	Net("unnamed_net66" "(unknown)")
 	(
+		Connect("C318-2")
+		Connect("R309-2")
+		Connect("U302-20")
+	)
+	Net("unnamed_net67" "(unknown)")
+	(
 		Connect("C316-2")
 		Connect("C317-2")
 		Connect("R309-1")
 		Connect("U302-7")
-	)
-	Net("unnamed_net67" "(unknown)")
-	(
-		Connect("C318-2")
-		Connect("R309-2")
-		Connect("U302-20")
 	)
 	Net("unnamed_net68" "(unknown)")
 	(
