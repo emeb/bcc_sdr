@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["BeagleBone FPGA" 340000 215000]
 
 Grid[500.0 0 0 1]
-Cursor[172500 21000 0.000000]
+Cursor[123500 144500 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -4674,6 +4674,7 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
+	Text[28000 122000 0 50 "(c)2014 Eric Brombaugh/Tom King" "clearline"]
 )
 NetList()
 (
