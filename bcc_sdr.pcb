@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["BeagleBone FPGA" 340000 215000]
 
 Grid[500.0 0 0 1]
-Cursor[0 0 0.000000]
+Cursor[25500 88000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -4241,7 +4241,7 @@ Layer(2 "GND")
 	(
 		[2000 164000] [330000 164000] [330000 190000] [2000 190000] 
 	)
-	Polygon("clearpoly,selected")
+	Polygon("clearpoly")
 	(
 		[339648 50148] [3648 50148] [3648 165148] [339648 165148] 
 	)
@@ -4674,7 +4674,10 @@ Layer(9 "silk")
 )
 Layer(10 "silk")
 (
-	Text[26500 122000 0 60 "(c)2014 Eric Brombaugh/Tom King" "clearline"]
+	Text[26000 119500 0 60 "(c)2014 Eric Brombaugh/Tom King" "clearline"]
+	Text[49500 92500 0 70 "BCC_SDR" "clearline"]
+	Text[46500 124000 0 60 "KC7GXA" "clearline"]
+	Text[68000 124000 0 60 "KA6SOX" "clearline"]
 	Polygon("pin,via")
 	(
 		[57077 98886] [56994 98918] [56947 98994] [56898 99233] [56861 99455] 
