@@ -11,7 +11,7 @@ Thermal[0.500000]
 DRC[6.00mil 6.00mil 6.00mil 6.00mil 13.00mil 7.00mil]
 Flags("nameonpcb")
 Groups("1,c:2:3:4,s:5:6:7:8")
-Styles["Signal,6.00mil,27.00mil,13.00mil,6.00mil:Power,30.00mil,40.00mil,20.00mil,10.00mil:50ohm,12.00mil,8.00mil,4.00mil,12.00mil:Skinny,20.00mil,8.00mil,4.00mil,6.00mil"]
+Styles["Signal,600,2700,1300,600:Power,3000,4000,2000,1000:50ohm,1200,800,400,1200:Skinny,2000,800,400,600"]
 
 Symbol[' ' 18.00mil]
 (
