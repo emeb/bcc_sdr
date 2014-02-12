@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["BeagleBone FPGA" 340000 215000]
 
 Grid[500.0 0 0 0]
-Cursor[94000 0 0.000000]
+Cursor[220500 117000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 600 600 600 1300 700]
@@ -997,8 +997,7 @@ Via[158000 140000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[44000 33500 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[66000 33500 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[75000 81500 2700 1200 0 1300 "" "thermal(0X,1X)"]
-Via[74500 68500 2700 1200 0 1300 "" "thermal(0X,1X)"]
-Via[74000 60000 2700 1200 0 1300 "" "thermal(0X,1X)"]
+Via[76500 72500 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[91000 69000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[47500 173000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[62000 174000 2700 1200 0 1300 "" "thermal(0X,1X)"]
@@ -1025,7 +1024,7 @@ Via[121000 69000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[57000 80500 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[106500 66000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[182000 63500 2700 1200 0 1300 "" "thermal(0X,1X)"]
-Via[201000 43000 2700 1200 0 1300 "" "thermal(0X,1X)"]
+Via[201000 44000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[161500 56500 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[30500 46500 2700 1200 0 1300 "" "thermal(0X,1X,3X)"]
 Via[42000 86500 2700 1200 0 1300 "" "thermal(0S,1S,3X)"]
@@ -1093,7 +1092,7 @@ Via[218500 76000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[201000 111000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[175000 16500 2700 1200 0 1300 "" "thermal(0X,1X,3X)"]
 Via[188500 17000 2700 1200 0 1300 "" "thermal(0X,1X)"]
-Via[190500 43000 2700 1200 0 1300 "" "thermal(0X,1X)"]
+Via[208500 44000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[177000 34500 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[284500 77000 2700 1200 0 1300 "" "thermal(0X,1X)"]
 Via[265500 83000 2700 1200 0 1300 "" "thermal(0X,1X)"]
@@ -1732,17 +1731,6 @@ Element["" "MINICIRCUITS_VV105" "U205" "unknown" 55000 159500 6000 4000 0 60 ""]
 
 	)
 
-Element["" "my_0402_sm" "L205" "unknown" 45500 166000 3000 5500 1 60 ""]
-(
-	Pad[-393 -1574 393 -1574 1968 2000 2568 "1" "1" "square"]
-	Pad[-393 1574 393 1574 1968 2000 2568 "2" "2" "square"]
-	ElementLine [-2200 -3400 2200 -3400 1000]
-	ElementLine [2200 -3400 2200 3400 1000]
-	ElementLine [-2200 3400 2200 3400 1000]
-	ElementLine [-2200 -3400 -2200 3400 1000]
-
-	)
-
 Element["" "MINICIRCUITS_AT1521" "T101" "TC1-1T" 237000 150500 -8500 -12000 0 60 ""]
 (
 	Pad[-8000 -5000 -4500 -5000 3000 3000 3600 "" "6" "square"]
@@ -2067,7 +2055,7 @@ Element["" "MINICIRCUITS_VV105" "U211" "unknown" 182803 28288 -2303 -18788 0 60 
 
 	)
 
-Element["" "my_0402_sm" "C225" "0.1uf" 180500 48000 8456 4226 1 60 ""]
+Element["" "my_0402_sm" "C225" "0.1uf" 180500 48000 31000 9500 1 60 ""]
 (
 	Pad[-393 -1574 393 -1574 1968 2000 2568 "1" "1" "square"]
 	Pad[-393 1574 393 1574 1968 2000 2568 "2" "2" "square"]
@@ -2078,7 +2066,7 @@ Element["" "my_0402_sm" "C225" "0.1uf" 180500 48000 8456 4226 1 60 ""]
 
 	)
 
-Element["" "my_0402_sm" "C224" "0.01uf" 185500 48000 7456 4226 1 60 ""]
+Element["" "my_0402_sm" "C224" "0.01uf" 185500 48000 30000 9500 1 60 ""]
 (
 	Pad[-393 -1574 393 -1574 1968 2000 2568 "1" "1" "square"]
 	Pad[-393 1574 393 1574 1968 2000 2568 "2" "2" "square"]
@@ -2145,17 +2133,6 @@ Element["" "SOT326" "U207" "unknown" 206803 16288 12100 400 0 60 ""]
 	ElementLine [-2500 -1400 -2500 6600 1000]
 	ElementLine [-2500 6600 9400 6600 1000]
 	ElementLine [9400 -1400 9400 6600 1000]
-
-	)
-
-Element["" "my_0402_sm" "L207" "unknown" 195500 35500 -6650 5150 1 60 ""]
-(
-	Pad[-393 -1574 393 -1574 1968 2000 2568 "1" "1" "square"]
-	Pad[-393 1574 393 1574 1968 2000 2568 "2" "2" "square"]
-	ElementLine [-2200 -3400 2200 -3400 1000]
-	ElementLine [2200 -3400 2200 3400 1000]
-	ElementLine [-2200 3400 2200 3400 1000]
-	ElementLine [-2200 -3400 -2200 3400 1000]
 
 	)
 
@@ -2425,17 +2402,6 @@ Element["" "my_0402_sm" "C203" "0.1uf" 106500 180500 2850 2350 0 60 ""]
 	ElementLine [-2200 -3400 -2200 3400 1000]
 	ElementLine [-2200 -3400 2200 -3400 1000]
 	ElementLine [2200 -3400 2200 3400 1000]
-
-	)
-
-Element["" "my_0402_sm" "L201" "unknown" 111500 177000 2202 5502 1 60 ""]
-(
-	Pad[-393 -1574 393 -1574 1968 2000 2568 "1" "1" "square"]
-	Pad[-393 1574 393 1574 1968 2000 2568 "2" "2" "square"]
-	ElementLine [-2200 -3400 2200 -3400 1000]
-	ElementLine [2200 -3400 2200 3400 1000]
-	ElementLine [-2200 3400 2200 3400 1000]
-	ElementLine [-2200 -3400 -2200 3400 1000]
 
 	)
 
@@ -2974,17 +2940,6 @@ Element["" "my_0402_sm" "C219" "0.1uf" 57532 72201 -2532 -5201 1 60 ""]
 
 	)
 
-Element["" "my_0402_sm" "L206" "unknown" 68106 66127 -3106 -7627 0 60 ""]
-(
-	Pad[-393 -1574 393 -1574 1968 2000 2568 "1" "1" "square"]
-	Pad[-393 1574 393 1574 1968 2000 2568 "2" "2" "square"]
-	ElementLine [-2200 -3400 2200 -3400 1000]
-	ElementLine [2200 -3400 2200 3400 1000]
-	ElementLine [-2200 3400 2200 3400 1000]
-	ElementLine [-2200 -3400 -2200 3400 1000]
-
-	)
-
 Element["" "my_0402_sm" "R209" "60_1%" 68106 75275 2394 3725 1 60 ""]
 (
 	Pad[-393 -1574 393 -1574 1968 2000 2568 "1" "1" "square"]
@@ -3271,6 +3226,59 @@ Element["" "CP-64-3" "U103" "unknown" 271500 126000 -2000 -25000 0 60 ""]
 	ElementLine [16200 20200 20200 16200 1000]
 
 	)
+
+Element["" "my_0805" "L207" "unknown" 193500 43000 22000 2500 1 100 ""]
+(
+	Pad[-393 -3740 393 -3740 5118 2000 5600 "input" "1" "square"]
+	Pad[-393 3740 393 3740 5118 2000 5600 "input" "2" "square"]
+	ElementLine [-4452 -7799 4452 -7799 1000]
+	ElementLine [4452 -7799 4452 7799 1000]
+	ElementLine [-4452 7799 4452 7799 1000]
+	ElementLine [-4452 -7799 -4452 7799 1000]
+
+	)
+
+Element["" "my_0805" "L201" "unknown" 40500 189000 9681 -4900 0 100 ""]
+(
+	Pad[3740 -393 3740 393 5118 2000 5600 "input" "1" "square"]
+	Pad[-3740 -393 -3740 393 5118 2000 5600 "input" "2" "square"]
+	ElementLine [7799 -4452 7799 4452 1000]
+	ElementLine [-7799 4452 7799 4452 1000]
+	ElementLine [-7799 -4452 -7799 4452 1000]
+	ElementLine [-7799 -4452 7799 -4452 1000]
+
+	)
+
+Element["" "my_0805" "L205" "unknown" 13500 188500 9681 -4900 0 100 ""]
+(
+	Pad[3740 -393 3740 393 5118 2000 5600 "input" "1" "square"]
+	Pad[-3740 -393 -3740 393 5118 2000 5600 "input" "2" "square"]
+	ElementLine [7799 -4452 7799 4452 1000]
+	ElementLine [-7799 4452 7799 4452 1000]
+	ElementLine [-7799 -4452 -7799 4452 1000]
+	ElementLine [-7799 -4452 7799 -4452 1000]
+
+	)
+
+Element["" "1206" "L206" "unknown" 34500 21500 -10161 -12011 0 100 ""]
+(
+	Pad[-5511 -393 -5511 393 6299 2000 8299 "input" "1" "square"]
+	Pad[5511 -393 5511 393 6299 2000 8299 "input" "2" "square"]
+	ElementLine [-10161 5043 -10161 -5043 1000]
+	ElementLine [-10161 -5043 10161 -5043 1000]
+	ElementLine [10161 -5043 10161 5043 1000]
+	ElementLine [10161 5043 -10161 5043 1000]
+
+	)
+Rat[63456 54201 0 28989 21107 0  ""]
+Rat[20000 169500 0 9760 188107 0  ""]
+Rat[45500 164426 0 17240 188107 0  ""]
+Rat[48213 73941 0 40011 21107 0  ""]
+Rat[79074 186000 0 36760 188607 0  ""]
+Rat[102107 169574 0 44240 188607 0  ""]
+Rat[193000 28500 0 193107 39260 0  ""]
+Rat[185107 49574 0 180138 49212 0  ""]
+Rat[185107 49574 0 193107 46740 0  ""]
 Layer(1 "component")
 (
 	Line[289350 140700 310500 140700 600 1200 "clearline"]
@@ -3684,11 +3692,6 @@ Layer(1 "component")
 	Line[172409 50000 173197 49212 2000 1200 "clearline"]
 	Line[173197 49212 180138 49212 600 1200 "clearline"]
 	Line[180138 49212 180500 49574 600 1200 "clearline"]
-	Line[180500 49574 190426 49574 600 1200 "clearline"]
-	Line[190426 49574 195500 44500 600 1200 "clearline"]
-	Line[195500 44500 195500 37074 600 1200 "clearline"]
-	Line[195500 33926 195500 29000 1200 2400 "clearline"]
-	Line[195500 29000 195000 28500 1200 2400 "clearline"]
 	Line[213803 16288 213803 12197 600 1200 "clearline"]
 	Line[213803 12197 214500 11500 600 1200 "clearline"]
 	Line[213803 21388 213803 25803 600 1200 "clearline"]
@@ -4087,14 +4090,12 @@ Layer(1 "component")
 	Line[10564 106000 10564 97064 1200 2400 "clearline"]
 	Line[10564 97064 8000 94500 1200 2400 "clearline"]
 	Line[18400 100000 10500 100000 1200 2400 "clearline"]
-	Line[68106 67701 68106 73201 1200 2400 "clearline"]
 	Line[48606 73941 67866 73941 1200 2400 "clearline"]
 	Line[48500 60000 48606 66461 1200 2400 "clearline"]
 	Line[62606 69201 62532 70479 1200 2400 "clearline"]
 	Line[60606 67201 62606 69201 1200 2400 "clearline"]
 	Line[57680 69627 60106 67201 1200 2400 "clearline"]
 	Line[57532 70627 57680 69627 1200 2400 "clearline"]
-	Line[68106 64553 68106 54307 1200 2400 "clearline"]
 	Line[68106 54307 68000 54201 1200 2400 "clearline"]
 	Line[68106 76849 68106 80894 1200 2400 "clearline"]
 	Line[68106 80894 68000 81000 1200 2400 "clearline"]
@@ -5798,14 +5799,14 @@ NetList()
 	)
 	Net("unnamed_net18" "(unknown)")
 	(
-		Connect("C217-1")
-		Connect("U208-3")
-	)
-	Net("unnamed_net19" "(unknown)")
-	(
 		Connect("C217-2")
 		Connect("L206-1")
 		Connect("U210-3")
+	)
+	Net("unnamed_net19" "(unknown)")
+	(
+		Connect("C217-1")
+		Connect("U208-3")
 	)
 	Net("unnamed_net20" "(unknown)")
 	(
@@ -5819,8 +5820,8 @@ NetList()
 	)
 	Net("unnamed_net22" "(unknown)")
 	(
-		Connect("C213-2")
-		Connect("U206-1")
+		Connect("C214-1")
+		Connect("U206-5")
 	)
 	Net("unnamed_net23" "(unknown)")
 	(
@@ -5829,13 +5830,13 @@ NetList()
 	)
 	Net("unnamed_net24" "(unknown)")
 	(
-		Connect("C214-1")
-		Connect("U206-5")
+		Connect("C213-2")
+		Connect("U206-1")
 	)
 	Net("unnamed_net25" "(unknown)")
 	(
-		Connect("R203-2")
-		Connect("U201-5")
+		Connect("U201-1")
+		Connect("U202-2")
 	)
 	Net("unnamed_net26" "(unknown)")
 	(
@@ -5844,13 +5845,13 @@ NetList()
 	)
 	Net("unnamed_net27" "(unknown)")
 	(
-		Connect("U201-1")
-		Connect("U202-2")
+		Connect("R203-2")
+		Connect("U201-5")
 	)
 	Net("unnamed_net28" "(unknown)")
 	(
-		Connect("JP201-2")
-		Connect("U209-5")
+		Connect("C221-2")
+		Connect("U209-1")
 	)
 	Net("unnamed_net29" "(unknown)")
 	(
@@ -5859,8 +5860,8 @@ NetList()
 	)
 	Net("unnamed_net30" "(unknown)")
 	(
-		Connect("C221-2")
-		Connect("U209-1")
+		Connect("JP201-2")
+		Connect("U209-5")
 	)
 	Net("unnamed_net31" "(unknown)")
 	(
@@ -5869,13 +5870,13 @@ NetList()
 	)
 	Net("unnamed_net32" "(unknown)")
 	(
-		Connect("C209-1")
-		Connect("U204-5")
+		Connect("C208-2")
+		Connect("U204-3")
 	)
 	Net("unnamed_net33" "(unknown)")
 	(
-		Connect("C208-2")
-		Connect("U204-3")
+		Connect("C209-1")
+		Connect("U204-5")
 	)
 	Net("unnamed_net34" "(unknown)")
 	(
@@ -5924,25 +5925,25 @@ NetList()
 	)
 	Net("unnamed_net41" "(unknown)")
 	(
-		Connect("C205-1")
-		Connect("L201-1")
-		Connect("U203-3")
-	)
-	Net("unnamed_net42" "(unknown)")
-	(
 		Connect("C205-2")
 		Connect("C206-1")
 		Connect("L202-2")
 	)
-	Net("unnamed_net43" "(unknown)")
+	Net("unnamed_net42" "(unknown)")
 	(
-		Connect("C201-1")
-		Connect("R204-1")
+		Connect("C205-1")
+		Connect("L201-1")
+		Connect("U203-3")
 	)
-	Net("unnamed_net44" "(unknown)")
+	Net("unnamed_net43" "(unknown)")
 	(
 		Connect("C201-2")
 		Connect("U203-1")
+	)
+	Net("unnamed_net44" "(unknown)")
+	(
+		Connect("C201-1")
+		Connect("R204-1")
 	)
 	Net("unnamed_net45" "(unknown)")
 	(
@@ -5969,14 +5970,14 @@ NetList()
 	)
 	Net("unnamed_net49" "(unknown)")
 	(
-		Connect("C223-2")
-		Connect("R212-1")
-	)
-	Net("unnamed_net50" "(unknown)")
-	(
 		Connect("R210-1")
 		Connect("R211-2")
 		Connect("R212-2")
+	)
+	Net("unnamed_net50" "(unknown)")
+	(
+		Connect("C223-2")
+		Connect("R212-1")
 	)
 	Net("unnamed_net51" "(unknown)")
 	(
