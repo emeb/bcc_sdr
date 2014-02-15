@@ -16,7 +16,7 @@ clean:
 	-rm -f *~ *- *.new.pcb *.cmd *.net *.pdf *.jpg bom.txt *.ps *.zip *.bak
 
 bom:
-	$(GNET) -g bom $(DESIGN).sch -o bom.txt
+	$(GNET) -g bom $(DESIGN)_pg?.sch -o bom.csv
 	
 sch_pdf:
 	$(GSCH) -p -o $(DESIGN)_pg1.ps -s print.scm $(DESIGN)_pg1.sch
