@@ -3557,7 +3557,7 @@ device=RESISTOR
 T 10200 6200 5 10 1 1 0 0 1
 refdes=R212
 T 10700 6100 5 10 1 1 180 0 1
-value=66.5 1%
+value=16.5 1%
 T 10000 5600 5 10 0 0 270 0 1
 footprint=my_0402_sm
 }
@@ -3607,7 +3607,7 @@ device=RESISTOR
 T 11100 6200 5 10 1 1 0 0 1
 refdes=R210
 T 11600 6100 5 10 1 1 180 0 1
-value=66.5 1%
+value=16.5 1%
 T 10900 5600 5 10 0 0 270 0 1
 footprint=my_0402_sm
 }
@@ -3657,7 +3657,7 @@ device=RESISTOR
 T 10700 5400 5 10 1 1 180 0 1
 refdes=R211
 T 10100 5000 5 10 1 1 0 0 1
-value=16.5 1%
+value=66.5 1%
 T 11000 4800 5 10 0 0 0 0 1
 footprint=my_0402_sm
 }
