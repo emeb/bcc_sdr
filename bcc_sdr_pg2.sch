@@ -1611,7 +1611,7 @@ refdes=L206
 T 13300 5400 5 10 0 0 90 0 1
 symversion=0.1
 T 14000 5200 5 10 0 0 0 0 1
-footprint=1206_sm
+footprint=1206
 }
 N 13900 5200 13900 4500 4
 C 13700 7000 1 0 0 EMBEDDED5V-plus-1.sym
