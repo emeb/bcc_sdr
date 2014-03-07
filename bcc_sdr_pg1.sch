@@ -6642,7 +6642,7 @@ device=BNC
 T 13950 17050 5 10 0 0 0 6 1
 device=BNC
 T 14300 17200 5 10 1 1 0 6 1
-refdes=J104
+refdes=J105
 T 14300 16400 5 10 0 0 0 0 1
 footprint=SMA_ENDLAUNCH
 }
